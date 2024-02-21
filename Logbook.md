@@ -28,4 +28,6 @@ After the meeting with our supervisor we got another research paper on diffusion
 We also agreed that for now our main research question is going to be how to transform the diffusions models used on 2D data in the papers, into a test to see we can bring down the step using the same methods, but using 3D data shapes instead.
 
 
-### Coming
+### 21.02.2024
+Since last week we have read the article given by our supervisor and seen the YouTube video [DDPM - Diffusion Models Beat GANs on Image Synthesis (Machine Learning Research Paper Explained)](https://www.youtube.com/watch?v=W-O7AZNzbzQ) and [Diffusion Models | Paper Explanation | Math Explained](https://www.youtube.com/watch?v=HoKDTa5jHvg) and got a "overall" understanding of the subject diffusion models and how they were used in the scientific papers.
+Today we are make a draft for the Project Canvas and brainstorming on which research question the project could work with. We agreed with Morten Mørup to sent him our draft to look at it, and we will sent a draft with the research question to Johan Ye to approve our ideas. 
