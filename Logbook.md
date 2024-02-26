@@ -33,7 +33,10 @@ Since last week we have read the article given by our supervisor and seen the Yo
 Today we are make a draft for the Project Canvas and brainstorming on which research question the project could work with. We agreed with Morten Mørup to sent him our draft to look at it, and we will sent a draft with the research question to Johan Ye to approve our ideas.
 
 ### 23.02.2024 
+We sent Johan our research questions and got a greenlight for the three seen below:
+- Can existing 2D diffusion model architectures be adapted for 3D point cloud generation?
+- Is it possible to modify the diffusion and reverse diffusion processes to achieve an output of similar quality/fidelity with fewer steps?
+- What role do loss functions play in adapting 2D diffusion models for 3D point cloud generation, and how might they need to be modified?
 
-Report draft made for upcoming deadline. 
-We sent Morten Mørup our draft
-We sent Johan our reseach questions and got a greenlight for 3 of them
+We made the project description draft, which have been sent to Morten Mørup to get back feedback.
+
