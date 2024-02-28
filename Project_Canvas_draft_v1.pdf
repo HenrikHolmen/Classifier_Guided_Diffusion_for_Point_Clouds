@@ -425,7 +425,7 @@ endobj
 <</AcroForm 165 0 R /MarkInfo<</Marked true>>/Metadata 4 0 R /Pages 3 0 R /StructTreeRoot 6 0 R /Type/Catalog/ViewerPreferences<</Direction/L2R>>>>
 endobj
 129 0 obj
-<</Annots[ 167 0 R  169 0 R  173 0 R  176 0 R  179 0 R  183 0 R  186 0 R  188 0 R  197 0 R  213 0 R  220 0 R  223 0 R  227 0 R  230 0 R  232 0 R  235 0 R  237 0 R  242 0 R  244 0 R  246 0 R  248 0 R ]/ArtBox[ 0 0 2383.94 1683.78]/BleedBox[ 0 0 2383.94 1683.78]/Contents[ 134 0 R  135 0 R  136 0 R  137 0 R  138 0 R  139 0 R  140 0 R  141 0 R ]/CropBox[ 0 0 2383.94 1683.78]/Group 162 0 R /MediaBox[ 0 0 2383.94 1683.78]/Parent 3 0 R /Resources<</ColorSpace<</CS0 132 0 R /CS1 133 0 R >>/ExtGState<</GS0 143 0 R /GS1 144 0 R /GS2 145 0 R >>/Font<</C2_0 130 0 R /TT0 131 0 R >>/ProcSet[/PDF/Text/ImageC/ImageI]/XObject<</Fm0 157 0 R /Fm1 159 0 R /Im0 161 0 R >>>>/Rotate 0/StructParents 0/TrimBox[ 0 0 2383.94 1683.78]/Type/Page>>
+<</Annots[ 167 0 R  169 0 R  176 0 R  179 0 R  183 0 R  186 0 R  188 0 R  197 0 R  213 0 R  220 0 R  223 0 R  227 0 R  230 0 R  232 0 R  235 0 R  237 0 R  242 0 R  244 0 R  246 0 R  248 0 R ]/ArtBox[ 0 0 2383.94 1683.78]/BleedBox[ 0 0 2383.94 1683.78]/Contents[ 134 0 R  135 0 R  136 0 R  137 0 R  138 0 R  139 0 R  140 0 R  141 0 R ]/CropBox[ 0 0 2383.94 1683.78]/Group 162 0 R /MediaBox[ 0 0 2383.94 1683.78]/Parent 3 0 R /Resources<</ColorSpace<</CS0 132 0 R /CS1 133 0 R >>/ExtGState<</GS0 143 0 R /GS1 144 0 R /GS2 145 0 R >>/Font<</C2_0 130 0 R /TT0 131 0 R >>/ProcSet[/PDF/Text/ImageC/ImageI]/XObject<</Fm0 157 0 R /Fm1 159 0 R /Im0 161 0 R >>>>/Rotate 0/StructParents 0/TrimBox[ 0 0 2383.94 1683.78]/Type/Page>>
 endobj
 130 0 obj
 <</BaseFont/JEZNPW+Effra-Regular/DescendantFonts 151 0 R /Encoding/Identity-H/Subtype/Type0/ToUnicode 152 0 R /Type/Font>>
@@ -809,257 +809,334 @@ endobj
 <</BaseFont/Helvetica/Encoding/WinAnsiEncoding/Subtype/Type1/Type/Font>>
 endobj
 167 0 obj
-<</AP<</N 168 0 R >>/Border[ 0 0 0]/Contents(Point Clouds)/DA(/Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 251.691 1512.65 317.343 1525.17]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-168 0 obj
-<</BBox[ 0 0 65.6521 12.5181]/Filter/FlateDecode/FormType 1/Length 99/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊÍ
-‚PĞı÷ß²6ÓÌ•1×ŠĞ2aÀğ'Š‹¢VÏtÖgƒRYº”Œ–Ä­2î{.¨ÊşE¹? ,DÍıÊq¹MùKSqÆŒÓ}}.o6yıŒÇ™ñBèğò½s
-endstream
+<</AP<</N 300 0 R >>/Border[ 0 0 0]/Contents(Point Clouds)/DA( /Helv 36 Tf 0 Tc 40.32 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 254.924 1510.2 480.287 1551.42]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 169 0 obj
-<</AP<</N 172 0 R >>/Border[ 0 0 0]/Contents(\n\nWe will convert diffusion models from 2D into working with 3D data. )/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 105.77 1377.35 427.545 1413.03]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-172 0 obj
-<</BBox[ 0 0 321.775 35.6743]/Filter/FlateDecode/FormType 1/Length 143/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊ±Â Ğı}Åu¡q65q5!éÜ¨(…H±ı}“'9_âà`Z+HÅ.º•(=İq˜q/e"Ñ²VÉ+Œ%“L‹ç‡‹+g
-ÆÓ¡wØBŒsZ]©°ÁûßrÂœ­‹|É3š!ÕŒ-—OH¶P_ìP†#Ì›î†ô`,œ
-endstream
-endobj
-173 0 obj
-<</AP<</N 175 0 R >>/Border[ 0 0 0]/Contents(DM is a new technology which already has shown promising results in the 2D spaces. Which opens the door to further examine if this also shows the\nresults in 3D space. )/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 107.684 1336.01 804.107 1360.11]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-175 0 obj
-<</BBox[ 0 0 696.423 24.0962]/Filter/FlateDecode/FormType 1/Length 203/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœM1oÃ „w~ÅéP
-¶ãÔk•H]:TBÊŒìgCEÀá‘ºù÷UP‡Î÷İ}w
-
-ıĞË®iÑtR}ƒL8#Š7#ÌX…¼İÉıĞ`&ñòNáZÉ=Ì,vÇx†E¤…FSHË›ó£ƒ™ìt‡³vi‹XsºxöqA&¾…ÂğÅš#xµ#±Ä¹vÓJ‘k4¥”Qæ[.2èÇ^|$øÅ=äS¯øÌ—PxÖZôëãñîŸªıÓHTîdÄ§øÏÚQn
-endstream
+<</AP<</N 292 0 R >>/Border[ 0 0 0]/Contents(\n\nWe will convert diffusion models from 2D into working with 3D data.\n \nDM is a new technology which already has shown promising results\nin the 2D spaces. Which opens the door to further examine if this \nalso shows the results in 3D space. )/DA( /Helv 21 Tf 0 Tc 23.52 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 103.077 1300.7 744.191 1465.62]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 176 0 obj
-<</AP<</N 178 0 R >>/Border[ 0 0 0]/Contents(Fesability of converting 2D DM into working with 3D data. \n\n.... more to come)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 837.155 1366.1 1112.61 1401.77]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-178 0 obj
-<</BBox[ 0 0 275.455 35.6743]/Filter/FlateDecode/FormType 1/Length 155/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœUŒ±‚0E÷÷wÄÁgœ“&Î«ĞÆÚ@ü{#qq¼'çÜ'	¤¥â\)dŠ‹2Ï.p´Ó$ ›E=	¤ËRn¡[ÚÍ0A
-VĞ%óª¯v°ñß¡ñn2!Z×#­P`]ô˜}x|ÑlãY…¶5c}'µ”ü»ş	33F¢GãG³{Mgú 1¶
-endstream
+<</AP<</N 290 0 R >>/Border[ 0 0 0]/Contents(Converting 2D DM into working with 3D data. \n\nOptimization of our 3D diffusion model \n\n \n\n)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 837.155 1189.39 1399.15 1401.77]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 179 0 obj
-<</AP<</N 182 0 R >>/Border[ 0 0 0]/Contents(A working model on 3D data?)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1581.29 1390.76 1724.6 1403.27]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-182 0 obj
-<</BBox[ 0 0 143.307 12.5181]/Filter/FlateDecode/FormType 1/Length 109/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊ±
-Â0Ğı~ÅuIß3†º‰Ò‚káAçÒÄ¢Öƒèïù¼ êŞ;/-uç‚”5qdÆÙ ´ù_„uĞ;ÑZZDsIë‡*.Ğ®Øœø-õqËŸ%¦•%ÓwŒÓ{:niwô†?qø
-endstream
+<</AP<</N 289 0 R >>/Border[ 0 0 0]/Contents(A working model on 3D data.\n\nOptimization of 3D DM with same quality using less steps)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1581.29 1311.71 2282.83 1403.27]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 183 0 obj
-<</AP<</N 217 0 R >>/Border[ 0 0 0]/Contents(A well worked project rapport. \n\nA working DM which works with \n3D point clouds)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 2104.93 799.741 2260.83 846.988]/Rotate 0/Subtype/FreeText/Type/Annot>>
+<</AP<</N 293 0 R >>/Border[ 0 0 0]/Contents(A well worked project rapport. \n\nA working DM which works with \n3D point clouds)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 2103.45 637.261 2310.11 849.642]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 186 0 obj
-<</AP<</N 192 0 R >>/Border[ 0 0 0]/Contents(Detailed project plan)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 243.958 1177.01 346.238 1189.7]/Rotate 0/Subtype/FreeText/Type/Annot>>
+<</AP<</N 282 0 R >>/Border[ 0 0 0]/Contents(Detailed project plan)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 243.795 1158.37 505.123 1189.52]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 188 0 obj
-<</AP<</N 240 0 R >>/Border[ 0 0 0]/Contents(Prototype of first DM)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 447.083 1173.96 549.35 1186.44]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-192 0 obj
-<</BBox[ 0 0 102.281 12.6864]/Filter/FlateDecode/FormType 1/Length 105/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊÁ
-‚@ĞııŠ»¬ÍôŞh2m£ mğÀµèK”Am¾_è¬ÏB¡J1)5†&55‹³å‚»Ahı¿Ëa4U7Ú€ËËó*áJûàôğ½›²ÜÊ:{¿sËİr¦ÍxŞ8 È_®
-endstream
+<</AP<</N 286 0 R >>/Border[ 0 0 0]/Contents(Prototype of first DM)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 652.773 1159.78 914.102 1190.93]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 197 0 obj
-<</AP<</N 211 0 R >>/Border[ 0 0 0]/Contents(şÿ C o o p e r a t i o n   a g r e e m e n t   \n \n \n F i n d   r e s e a r c h   q u e s t i o n s \n \n \n P r o b l e m   d e f i n i t i o n \n \n \n G a n t t   C h a r t \n \n \n P r o j e c t   C a n v a s \n \n \n G e t   a p p r o v a l   f o r   t h e   a b o v e)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 246.796 882.705 377.294 1071.02]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-211 0 obj
-<</BBox[ 0 0 130.499 188.314]/Filter/FlateDecode/FormType 1/Length 195/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœ•±NÃ@DûıŠ)CÁqK‚ri± ” D½±×±#çÎYş~ä”H.Wš÷föF¼õnw8€Cp[ŞÁßHôÉ#Ö÷ˆ‡Éƒ÷Á~FlèéC‡ìİbK›*çQMJŸälªWMåñBÌnÏa¡ş?şøŞûÔÀtR±ºÃíG§E=­1n>-Ÿ½¢Ñ¶OıÂ¯Â’JAÕ‰­zd©½h]PIšeİâ£È8Ze@›¥SÈ)Ïz×¼Eú¢_úm\
-endstream
+<</AP<</N 274 0 R >>/Border[ 0 0 0]/Contents(şÿ C o o p e r a t i o n   a g r e e m e n t   \n \n \n F i n d   r e s e a r c h   q u e s t i o n s \n \n \n P r o b l e m   d e f i n i t i o n \n \n \n G a n t t   C h a r t \n \n \n P r o j e c t   C a n v a s \n \n \n G e t   a p p r o v a l   f o r   t h e   a b o v e)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 246.796 586.791 582.93 1071.02]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 213 0 obj
-<</AP<</N 219 0 R >>/Border[ 0 0 0]/Contents(Research differences in 2D & 3D DMs.\n\n\nPyTorch knowledge\n\n\nDataset analysis \(ethics\)\n\n\nCoding/1st testing\n\n\nStart writing the report\n)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 440.331 902.981 626.56 1068.02]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-217 0 obj
-<</BBox[ 0 0 155.895 47.2476]/Filter/FlateDecode/FormType 1/Length 159/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœmË½Â …áı»Š3ê ‚-RGMM\LHœÅş‘R)Êí›v3q<'ïó"!%+¹b»\í,îè¤‰C›%á5qdŠ©\
-èŠ¶ë>œIè'­HÖ9$z[a¾³&"<ÆÑ‡È°†îˆc#S¢˜ıÏ˜¹};Ô(¯HMkšå˜ÚØüÑ«¬ÄèÛ!Â8ÿ®¦¥8kºÑÍ47i
-endstream
-endobj
-219 0 obj
-<</BBox[ 0 0 186.229 165.038]/Filter/FlateDecode/FormType 1/Length 201/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœ•Ì±NÃ0…áı>Å™P:àÚ‰\Ò‚Ô	Š%–.Vr“"‡ÚWT}û*İ2éüß™44L½Se¹‡ÙY¥«‰ñ…HÏ4\{¿h¤4ŒµÊV®£í§?­,\OÅ‘3ûÔèBßsâØrFˆ(< jĞ¼eµû&GcÔ“©äÿQ¼_İ¼x?q¾LÜ¼ªn¼øÌıtÍ!ãT°Œ¡Í§Í*çeîB¶&„³„8¬Ê?Å'Á%…¥„ŒŒÄ¿s’;òêèƒn¥×a­
-endstream
+<</AP<</N 278 0 R >>/Border[ 0 0 0]/Contents(Research differences in 2D & 3D DMs.\n\n\nPyTorch knowledge\n\n\nDataset analysis \(ethics\)\n\n\nCoding/1st testing\n\n\nStart writing the report\n)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 640.638 609.698 1119.19 1063.72]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 220 0 obj
-<</AP<</N 222 0 R >>/Border[ 0 0 0]/Contents(Mads Bjørke Vejbæk\n\nWilliam Krøyer Stentzer\n\nHenrik Thorbjørn Holmen)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 108.502 357.207 232.651 416.446]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-222 0 obj
-<</BBox[ 0 0 124.149 59.2383]/Filter/FlateDecode/FormType 1/Length 159/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœ…Ë;
-Â@Fáş®â/cá8“IÚ€q0ub®š×¯AĞ»†”B:+Ëç»“††ñCeÂQªü 	 Œ2Kö¼,r%0Uq%°5mrîŸ0ZE°òöeı@ÖÎÒ1NÜVŸnÛ’ÆÚ›…ü„W4}ß”v2¿XpœØMo–,g'M{¥jgqÈÇ~`·°­¥}d8ß
-endstream
+<</AP<</N 294 0 R >>/Border[ 0 0 0]/Contents(Mads Bjørke Vejbæk\n\nWilliam Krøyer Stentzer\n\nHenrik Thorbjørn Holmen)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 334.627 304.56 653.499 456.531]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 223 0 obj
-<</AP<</N 226 0 R >>/Border[ 0 0 0]/Contents(Supervisor: Johan Ziruo Ye \nSupervisor: Morten Mørup\n\n)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 831.153 379.701 966.409 427.28]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-226 0 obj
-<</BBox[ 0 0 135.256 47.5782]/Filter/FlateDecode/FormType 1/Length 134/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœUË±
-Â0àıâu0^Zc‚£ ˆĞA<İDS­HROÛgw»¹ß“[:S¸9fŞ8
-hÄ‰–B9„¡Wb”Á°wr¡é:>zX6RÓh×µQûæ•uM¾v‡ˆ1äNŒ‰µÆÛğ»ºÊú	ÕG»v +¡-}\­)L
-endstream
+<</AP<</N 297 0 R >>/Border[ 0 0 0]/Contents(Supervisor: Johan Ziruo Ye \nSupervisor: Morten Mørup\n\n)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1013.85 298.55 1361.5 420.316]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 227 0 obj
-<</AP<</N 229 0 R >>/Border[ 0 0 0]/Contents(Fellow students \n\n)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1588.79 395.729 1671.09 431.258]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-229 0 obj
-<</BBox[ 0 0 82.292 35.5286]/Filter/FlateDecode/FormType 1/Length 100/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊ»
-ƒ@Ğş~Å-c³#»˜6±ü ]Y‰¿/xê³A(¬Ôé[Yzçµ
-Ü#;.ø„Ö?C¸Ojp¢¡ È›˜ş,ÄyÚˆWSZ/çoˆËy0£ÍøZÜH‰×
-endstream
+<</AP<</N 298 0 R >>/Border[ 0 0 0]/Contents(Fellow students \n\n)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1588.79 339.697 1799.77 431.258]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 230 0 obj
-<</AP<</N 231 0 R >>/Border[ 0 0 0]/Contents(Computational power \(HPC\)\nLibrary \(Find It\)\nLLMs \(Microsoft Copilot & OpenAI ChatGPT\) \nSupervisors \(Johan Ziruo Ye & Morten Mørup\) )/DA(/Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 109.246 153.501 332.59 200.717]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-231 0 obj
-<</BBox[ 0 0 223.343 47.2159]/Filter/FlateDecode/FormType 1/Length 210/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœmÌ±NÃ0FáİOñOU2àÚqªÀĞ¢FÕ¢ÊZ—_sãñæŒ¨HlİÏw>…‚BQiJƒ²’…]Ä
-vû—(ğ›P0•¬´)awb:wıZÉì^d5}Ä1uÉSèzDúrŒ6›¯ê6Ïaß…Â…Ö²Ò—'›-ı+wü6»óa‡E:_-›mÖø-Ó@û„š¢ï)a‚ÇèÂõõ¡K÷+Ûæ8Ã×ct|ôñéò@‡.`ãy$¼8LĞ'Ğüğÿ·V<‰_ÚjLD
-endstream
+<</AP<</N 295 0 R >>/Border[ 0 0 0]/Contents(Computational power \(HPC\)\nLibrary \(Find It\)\nLLMs \(Microsoft Copilot & OpenAI ChatGPT\) \nSupervisors \(Johan Ziruo Ye & Morten Mørup\) )/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 247.624 105.128 821.125 226.894]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 232 0 obj
-<</AP<</N 234 0 R >>/Border[ 0 0 0]/Contents(Project time is limited \nComputational complexity\nLack of knowledge)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 860.409 155.725 987.12 191.253]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-234 0 obj
-<</BBox[ 0 0 126.711 35.5286]/Filter/FlateDecode/FormType 1/Length 151/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœmË»‚0àı<Å?â`=­á2kL4iâLJ!…–"ÖÛÛ™İ¿ïF†T…(¥Ä6¹ª
-ÌWŒ´ÓÄĞf!Œ¹#†*«BB7´9Zÿ„d‘C·”çØ[“\°pwx\²VĞ=1ÖRŠRV¿˜íc˜©N.µ‡‰aòöíÒç=Õf@l1ŒñåmÓÙÅ4]è2=2W
-endstream
+<</AP<</N 296 0 R >>/Border[ 0 0 0]/Contents(Project time is limited \nComputational complexity\nLack of knowledge)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1033.04 109.761 1357.66 201.322]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 235 0 obj
-<</AP<</N 241 0 R >>/Border[ 0 0 0]/Contents(That the DM model we make does not work\nOther university courses that may affect the time allocation \n)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1596.29 181.752 1878.02 217.504]/Rotate 0/Subtype/FreeText/Type/Annot>>
+<</AP<</N 299 0 R >>/Border[ 0 0 0]/Contents(That the DM model we make does not work\nOther university courses that may affect the time allocation. \n)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1577.59 125.943 2309.34 217.504]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 237 0 obj
-<</AP<</N 238 0 R >>/Border[ 0 0 0]/Contents(Henrik Thorbjørn Holmen, Mads Bjørke Vejbæk, William Krøyer Stentzer and Technical University of Denmark  )/DA(/Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1729.09 1513.83 2250.89 1526.04]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-238 0 obj
-<</BBox[ 0 0 521.801 12.2072]/Filter/FlateDecode/FormType 1/Length 169/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊ±ŠÂ@à~â/=8YŒZ‹ÃB\µ^“Q7ÙL¸1úÀ>CJÁ¯şş‰Á(\­8Gî2ÇKœ ´öÄğÕ·0ìJ—-y¾(àkš•’È9+à/4)E-¶ğ·ŞÎÍhŠ²OèÛPß±nFkGiÎïvŠSL)†6>Å°D‡—‚ÖğRİ4V!á ñ!vÃıÑ.XüÀ7ôëiG˜: 
-endstream
-endobj
-239 0 obj
-<</BBox[ 0 0 102.268 24.1404]/Filter/FlateDecode/FormType 1/Length 108/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊ±
-Â0Ğı~ÅuI_b¬º–
-.Bú6)Š˜6¡/ôÌgPhÅWŸé¼±^<sàÀ…P[æ	BëM}8]¨#ª[xÿhÅ©».§’Ê:¦ÈøÌßÂö¾§¾pUôøÜ¥£
-endstream
-endobj
-240 0 obj
-<</BBox[ 0 0 102.268 12.4821]/Filter/FlateDecode/FormType 1/Length 108/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊA
-Â0Ğı?Å_ÚMœ¶¶[i¡›‚Â€ĞD”Òho/ô­ßB¡uÚ´ôê­zæÀ+œB»mE˜ªë]İĞîØaşÒ‹«i»sN%•ß;0EÆg^û©¢½0.øß`®
-endstream
-endobj
-241 0 obj
-<</BBox[ 0 0 281.722 35.7518]/Filter/FlateDecode/FormType 1/Length 168/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœ%Ì½‚0Ğı>Å7ê`m‹®FcLš87pä§±ooÀıä|IBB§J$Z#ŠE«ñBGgC&[‰„“„>
-}8E09íoÜŒPRÄ0mLiBÉ¸ÜÑºœLŒÖÖŒÜqÎLÎ×[˜Iì”‰J—gó%{]5²ï«0#sƒï¹GXÊÖÎ°EÁÙUË°Mã2*×aı®†ôN:`
-endstream
+<</AP<</N 301 0 R >>/Border[ 0 0 0]/Contents(Henrik Thorbjørn Holmen, Mads Bjørke Vejbæk, William Krøyer Stentzer \nand Technical University of Denmark  )/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1723.88 1510.95 2377.94 1602.51]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 242 0 obj
-<</AP<</N 243 0 R >>/Border[ 0 0 0]/Contents(Expand prototype)/DA(/Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 682.823 1175.12 771.181 1187.5]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-243 0 obj
-<</BBox[ 0 0 88.3577 12.3822]/Filter/FlateDecode/FormType 1/Length 101/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊ1
-„0Ğ~N1¥6ñ‘ÄV¶]ø`-ADo¿°¯~'„BïMU;ÇÒšÊ[ËØsG«êø/Â´@hw£N(>a»YŠ©©3²î‰Ã>1¦ã:®7†œº¢S|ñP
->
-endstream
+<</AP<</N 287 0 R >>/Border[ 0 0 0]/Contents(Expand prototype)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1199.05 1173.16 1425.85 1204.31]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 244 0 obj
-<</AP<</N 245 0 R >>/Border[ 0 0 0]/Contents(Evaluation\n\n\nFeedback from supervisors)/DA(/Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 691.265 1020.38 824.644 1067.46]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-245 0 obj
-<</BBox[ 0 0 133.379 47.0803]/Filter/FlateDecode/FormType 1/Length 129/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœuÌ±
-Â0Fáı>Å?ÖÁxC,·®BÅU¸àÛTªµÕÄæù…ì>Î‡ëœqrÀ^7ì®˜é¨ÄĞ®F¼Ã‰©EhO»s˜2,›:PÕf?­ş;.óú ÆÖZ#¶ĞÿQBèo¾{bˆËi}‡˜Ç´ÄT.­Ò…~"(À
-endstream
+<</AP<</N 281 0 R >>/Border[ 0 0 0]/Contents(Evaluation\n\n\nFeedback from supervisors)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1205.47 939.503 1547.36 1061.27]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 246 0 obj
-<</AP<</N 252 0 R >>/Border[ 0 0 0]/Contents(Final DM prototype)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 911.418 1171.05 1006.07 1183.52]/Rotate 0/Subtype/FreeText/Type/Annot>>
-endobj
-247 0 obj
-<</BBox[ 0 0 81.7921 12.3822]/Filter/FlateDecode/FormType 1/Length 101/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊ1
-ƒ@ĞşŸâ—I3™ »¶‚`“"0lV!D—àù…¼úíP*SØ[`0¹'3¶Â7¥çQ¶J“ûHã6•ïÁ ÒÑg\D„Ú
-•¹®åJÿ`t<q.­Â
-endstream
+<</AP<</N 288 0 R >>/Border[ 0 0 0]/Contents(Final DM prototype)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1636.28 1169.79 1880.34 1200.94]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
 248 0 obj
-<</AP<</N 258 0 R >>/Border[ 0 0 0]/Contents(... More to come)/DA( /Helv 10.5 Tf 0 Tc 11.76 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 917.419 1051.43 999.445 1063.52]/Rotate 0/Subtype/FreeText/Type/Annot>>
+<</AP<</N 280 0 R >>/Border[ 0 0 0]/Contents(... More to come)/DA( /Helv 27 Tf 0 Tc 30.24 TL 0 0 0 rg )/F 4/PDFIUM_HasGeneratedAP true/Rect[ 1641.05 1032.65 1852.02 1063.8]/Rotate 0/Subtype/FreeText/Type/Annot>>
 endobj
-249 0 obj
-<</BBox[ 0 0 81.7921 12.3823]/Filter/FlateDecode/FormType 1/Length 100/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+259 0 obj
+<</BBox[ 0 0 696.351 35.6061]/Filter/FlateDecode/FormType 1/Length 201/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœM1oÃ „w~ÅÉ
+±LÛµJ¤.*!eFö³¡"àòHüû((Cçûî¾û
+
+æİÈ®×èzi”Ñ(„’ø°BÁQ(³PØ©Ug`GñòIñZÉv›ÃÃ!ÑŠJƒO9æù†Õ‡ÁÃÅBn¼Á;û¼&,%Ÿ‡4£_be„„ê	ûxq±Ä©uóB‰[4æ\P3¦K©
+èêÎ!Â„êòÈ¹Í7|û#vZËWıöx¼ù§ê‰Æ­øwÄ©Qa
+endstream
+endobj
+260 0 obj
+<</BBox[ 0 0 696.351 35.6061]/Filter/FlateDecode/FormType 1/Length 201/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœM1oÃ „w~ÅÉ
+±LÛµJ¤.*!eFö³¡"àòHüû((Cçûî¾û
+
+æİÈ®×èzi”Ñ(„’ø°BÁQ(³PØ©Ug`GñòIñZÉv›ÃÃ!ÑŠJƒO9æù†Õ‡ÁÃÅBn¼Á;û¼&,%Ÿ‡4£_be„„ê	ûxq±Ä©uóB‰[4æ\P3¦K©
+èêÎ!Â„êòÈ¹Í7|û#vZËWıöx¼ù§ê‰Æ­øwÄ©Qa
+endstream
+endobj
+261 0 obj
+<</BBox[ 0 0 501.499 27.5497]/Filter/FlateDecode/FormType 1/Length 201/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœMÎ±nÂ0…áİOqF:à:	z­@êÒÉ³•ÜÄ®Œ|MSŞºÿGß¹…­ªäFkÔ­Ünt‹L8!ŠO#L·$
+y
+ÕNî>tÓ‹÷/
+¿¨j˜A¬ößğ‹H3
+u.¦Æfç;2ÙşgìÒ1åtöìãˆL|…á#Š#Ô{ğd;b‰Ó²}ƒù
+ëª‘®î*My©û”2JÂpÍÅQıÙ³? ¸ÇŸÀiŸù?«y9ò	Œ8Š;
+,Q>
+endstream
+endobj
+262 0 obj
+<</BBox[ 0 0 413.596 45.8599]/Filter/FlateDecode/FormType 1/Length 145/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÌ±‚0EáıŠ;ê`-B+¬W“&Ì„¶X,m,^ßàx’/çCUQ2ÑHT‚Õ¢i:º)âPÃŸp¤‘8Šš‰«¬ 4qœ
+Á¸”{œÆ¯Ø7P–Áæ¼ÇÃjR†vÖ~æ¨_`SœqiáBØbz»0bsù…²…îsÏp„šè®èI?Ì,´
+endstream
+endobj
+263 0 obj
+<</BBox[ 0 0 413.596 45.8597]/Filter/FlateDecode/FormType 1/Length 146/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÌ½Â Fáı»ŠwÔA¤?Ğv55q5!éÜ¨(…H±½}£ãIœ7qpÔEÅD'QÖŠ®A2è¢ˆCMÂ‘fâ(Z&YBiâ8‚q)q¾¿á·²tvç=¦6“2´³ö³º°Dmü
+›â‚²‡9béåÂŒİåªzÌ#ÃêIWEwúÌ,°
+endstream
+endobj
+264 0 obj
+<</BBox[ 0 0 218.744 12.1692]/Filter/FlateDecode/FormType 1/Length 121/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊ±
+Â0àıâu‰—XO»Ú.Âs±±FK‚!´¯/º~|b0œ=˜}ÓÀ:c¥u(7$:*1ôş/Œ2Ã‘:Ğæ¦–Íú U—ÓJi„óğÄT3–\Ş?Zb}bë1ôµ7XC_tRºÒ— Í
+endstream
+endobj
+265 0 obj
+<</BBox[ 0 0 218.744 82.48]/Filter/FlateDecode/FormType 1/Length 163/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ…Œ±‚0E÷÷wÔÁÚ"¤uUL\Œ1iâL¤`Z­¿Ş€““ã=9÷<‰ƒ#ŠÉ4…JXªÎp´ÑÄ¡/“Àjâ	[K™A—´Ü›¦‡à,ƒ®h¶õ®7!ZW#É‘`]ô|¸h°ñŠU²ˆÃúF!˜jŒıŒÙñmkßE´ŞÁWğ]˜Î¶ªº×ÈZ_šæoæ+ì4èj•;
+endstream
+endobj
+266 0 obj
+<</BBox[ 0 0 272.71 35.444]/Filter/FlateDecode/FormType 1/Length 162/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœUŒ=‚0÷÷W<#Ö– £cLš87R°Z(Ğ"Ñ_o`s¼äîzâàˆó˜åIÆÒ4Å qCKIò¾CMqÆv©È KÚœ´}Cp–AVí1¹áeÚ+µ…k‘(UPlù$µ,Û¹ıƒèÒÓ˜¯
+ÆµpÕÜgL&<àU£ÑÊšğÁèç½ÕŞÃİùå{”t¥Í5a
+endstream
+endobj
+267 0 obj
+<</BBox[ 0 0 130.417 189.368]/Filter/FlateDecode/FormType 1/Length 196/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ•»nÂ@EûùŠ[B‘Í®Ø´X<ÊDZ)õ`ÈìšñÆß™‰ÂåH÷œ{çAncÍ—Ëàò½Ùìr¨à,|ùŒXhC.Û›|·…¯èó"ıgÍ¾¦Uã Ê©‹Ü¨È]BZÃßÈâÃ9“¹|¦Ş/¾S*¨ŒÂZ¶xüÉ8«Ç%ÆÕ·Æk/wTRw¡›ùEø™CJ(ZÖEÌµ7)
+/[|–÷¨£"µ¾ÆIš£§úJme
+endstream
+endobj
+268 0 obj
+<</BBox[ 0 0 186.522 269.915]/Filter/FlateDecode/FormType 1/Length 193/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ•=oÂ@DûıSBçì`Z¬JNJ½ØëdîÌúğïGvGätSÌ{3w20ˆ·Y”&	’líâ*øƒ£½%[Ì­É I³èk[ÒçQºq
+[Ñ*÷¾åĞz®Uä&.¬a¯dğgÑ÷Œ¼Ë/ªßÖ•P„µhpÈ0Y‡Å²ÕIı¥“J©Z×NğröÀ.äëò÷ÓàUŠ€œİÈÿ8z î{õ#w¨¼"4¾øQfÇ¥3=À‹i
+endstream
+endobj
+269 0 obj
+<</BBox[ 0 0 267.083 235.395]/Filter/FlateDecode/FormType 1/Length 200/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÌ»NÄ0…á~âT([àu²—‚DƒÄÅÍ6V2I‘«}{”í‘ÒâüßYX¸İŞØCWÕ¦:ÖÈŒ$º÷dáÛëÅ"dá\i¾£íO¿(køŠ7¹ÑÅ¾çÌ©eALpnP5hÅlà?Éâ¶Ü™ıİ"ü·‹—‹Ÿì+Íç‰»×§MĞ ¬)L‰‚SÁ:ÆVN›õÈÃÜÅ4lKQ(‹Æ4¬oß5dÅ9Ç%ƒŒÌßsÖ«ğèé•ş Îÿ^Ø
+endstream
+endobj
+270 0 obj
+<</BBox[ 0 0 189.399 68.5469]/Filter/FlateDecode/FormType 1/Length 130/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœuÌ±Â Fáı>Å?ÖA„´¬&5®&7qÆ–šj-
+–ç7vw;Ã—ó&		Õ8±w¶F[‡pÁL&	îV"‘n$a´pµràv§0(¨j‹Ÿÿã¼ßIb«¬¨õÏıëêBõİCŠOäåRsLy]´LgúŠ'í
+endstream
+endobj
+271 0 obj
+<</BBox[ 0 0 117.47 18.2048]/Filter/FlateDecode/FormType 1/Length 99/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
 xœÊ1
-ƒ@ĞşŸâ—±™Ìˆk+6Â@`V!D—àù…¼úP*c¶³À`RG«Y_<Ğ;”¾ü‹²lPšÄ¶‹Fã9¦ïÅ ÒĞW<D„S.‰¿Ì%ï©¢08fÜCGö
+ƒ@ĞşŸâ—ÚŒ³fÕµ6Â@`VAb–,âù¾úı T:×‰ïè‚Ôêsä‹_<J[î¡Ì”^ÚºÚÕ?]C[Qˆ§”#ÏÄ%±¤í3ş·`
 endstream
 endobj
-250 0 obj
-<</BBox[ 0 0 81.8314 12.4741]/Filter/FlateDecode/FormType 1/Length 101/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+272 0 obj
+<</BBox[ 0 0 117.47 18.2051]/Filter/FlateDecode/FormType 1/Length 99/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
 xœÊ1
-ƒ@ĞşŸâ—ÚLfÖMÔ6°Iğ º	ˆºd	_È«ßJegÒ5iAb%qä»CéÓ¿(ËÊ }k·@ŸqÒzĞT®ô7*á3—Ä_æ”·TÓ</œ@Œê
+Â@ĞşŸâ—¦gbÖİZ¤Iğ ›M@Ô%‹x~ÁW¿J¥Y”!Ò’ôŒ­ğÎ7n¥çÿP¶ÊA®ÕD_qÊóKô'á\[á§2×WéèŒ?éO
 endstream
 endobj
-251 0 obj
-<</BBox[ 0 0 81.8314 12.4741]/Filter/FlateDecode/FormType 1/Length 101/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+273 0 obj
+<</BBox[ 0 0 189.399 84.3687]/Filter/FlateDecode/FormType 1/Length 130/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœuÌ±Â Fáı>Å?ÖA¼„Z`5©q5!qÆ–šj-
+–ç7vw;Ã—ó&C+”µ0µPÑHÌtpÄpİJéFÍB[¥ázÚÂT ÷pUmñÓâ?cœ7pwble#tısÿº:†Ğ_}÷Àâyy…TÆS^­£3}ˆ'é
+endstream
+endobj
+274 0 obj
+<</BBox[ 0 0 336.135 484.228]/Filter/FlateDecode/FormType 1/Length 195/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ•=oƒ@DûıS:EğÁá¯Ö(vÊX:)õƒwx9óû#Ü¹HA¹Ò¼7³20°v›¤vƒ|Ÿ'Y¶‡
+~áéèÈÀ•¯ˆŞÈ ß’İÁÂU´ş–nB¶ƒ«iU„0ˆrlƒßT¤?àîdğiM’Úlfş?Şl§ÖWP…µlğxÊ8‹Ç%¾Õ†k'=*©[ßÎü"üÌ>Fë¢7æÚ»”û‰—->Kƒ†‰;ÔA_Ã$/Í—£ı[âl'
+endstream
+endobj
+275 0 obj
+<</BBox[ 0 0 478.554 423.817]/Filter/FlateDecode/FormType 1/Length 200/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ•Ì±nƒ0…áı>Å™*2Ô1˜²&TêR©M-uÉbÁœ"ÓÚWòöUØ30éüß/ih”U­v»eaTWˆŒ/:XÒ°írÑˆi˜ı^™º€íhûÊÓŠ
+¶§ìÄ‰]lGt¾ï9rh9Á`4oIm`/¤ñl´ÊÍB<ÙûÍÎwï;Ì×‰»WÕ—Xà‚›nÉ'œ3–Ñ·é¼YåçÎ‡a›'p†Uù§¸(¸F/!##òÏeA^,}Ğ?î×`÷
+endstream
+endobj
+276 0 obj
+<</BBox[ 0 0 341.889 121.766]/Filter/FlateDecode/FormType 1/Length 130/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœuÌ±Â Fáı>Å?ÖA¼€v5©q5!qÆ–šj-
+–ç7vw<É—ó&Cï¥¨ëRIaA
+¸`¦ƒ#†ëVÂH7b4VhÍ®§İ)LÊÂTµÅO‹ÿŒqŞÀİ‰±Õ,¤V?ø?ªcıÕw)>‘—WHeÌ1åõÒ::ÓŞh(I
+endstream
+endobj
+277 0 obj
+<</BBox[ 0 0 210.978 31.15]/Filter/FlateDecode/FormType 1/Length 99/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
 xœÊ1
-ƒ@ĞşŸâ—ÚLfÖMÔ6°Iğ º	ˆºd	_È«ßJegÒ5iAb%qä»CéÓ¿(ËÊ }k·@ŸqÒzĞT®ô7*á3—Ä_æ”·TÓ</œ@Œê
+Â@ĞşŸâ—ÚŒ3âjØXr€dˆfÉ<ÀW¿Je2•{¾±1±–58rEçPúôÊº@y•l­&úŒË#>?¦Lá$"|–Ü§ò3ıŞ1à ğ*"
 endstream
 endobj
-252 0 obj
-<</BBox[ 0 0 94.6533 12.4741]/Filter/FlateDecode/FormType 1/Length 106/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœÊ½
-ƒ0Ğı{Šol—ô&FÅµTéâ \p.5JEü	"ôíÏ|6……7Yš$´ÎøÜ[ÆÀ–3
-¡~¯"Œ„Î¹ÍµÃã¦ƒVLJíq«~ógâ«æ—}Ùÿk¸SG”Š'ˆäœ
+278 0 obj
+<</BBox[ 0 0 478.554 454.023]/Filter/FlateDecode/FormType 1/Length 201/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ•Ì±NÃ0…áı>Å™P:àº£†‚Ô¥RK,]¬ä&1DØW­úö(İ2éüß/ihØ}­ªÊÂVViS"1>éÙ‘†kï4†5Oªªk¸¶.0{¸ŠwÎìS;¢}Ï‰cË!Â4x@Ù 9fµû"ÇR«]iâÿQœnn^¼ï8_'î^U7^|f~ºåq.XÆĞæóf•ó2w!Û]g	qX•ˆO‚k
+K	‰æ$wäÕÑıçb`ò
 endstream
 endobj
-253 0 obj
-<</BBox[ 0 0 82.0256 12.0856]/Filter/FlateDecode/FormType 1/Length 100/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+279 0 obj
+<</BBox[ 0 0 341.889 121.766]/Filter/FlateDecode/FormType 1/Length 130/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœuÌ±Â Fáı>Å?ÖA¼€v5©q5!qÆ–šj-
+–ç7vw<É—ó&Cï¥¨ëRIaA
+¸`¦ƒ#†ëVÂH7b4VhÍ®§İ)LÊÂTµÅO‹ÿŒqŞÀİ‰±Õ,¤V?ø?ªcıÕw)>‘—WHeÌ1åõÒ::ÓŞh(I
+endstream
+endobj
+280 0 obj
+<</BBox[ 0 0 210.978 31.15]/Filter/FlateDecode/FormType 1/Length 99/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
 xœÊ1
-ƒ@Ğ~N1¥6?ã†5[BšÀlA]²HÎ/øê÷ƒ(¦`
-±gL)ö¬™7Ñç³ˆõ1XLWİè/\îyù³“Eú™ñQjæ^8—5·ô/FÇ@Gé
+Â@ĞşŸâ—ÚŒ3âjØXr€dˆfÉ<ÀW¿Je2•{¾±1±–58rEçPúôÊº@y•l­&úŒË#>?¦Lá$"|–Ü§ò3ıŞ1à ğ*"
 endstream
 endobj
-254 0 obj
-<</BBox[ 0 0 82.0256 59.4802]/Filter/FlateDecode/FormType 1/Length 131/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœ…Ë1!Fá~Nñ—ká8E–Vcbc¡!ñ ˆFƒa×ó·³²|É÷^$šE›5Œã~qF¦'3Ô	zÇÎZ¡Õ>¦7”°¿RÇÌ8”1„òŒø	–J±UÃwø‰îÛ”ÆömKij÷’g¹ót¤7*¾
+281 0 obj
+<</BBox[ 0 0 341.889 121.766]/Filter/FlateDecode/FormType 1/Length 130/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœuÌ±Â Fáı>Å?ÖA¼€v5©q5!qÆ–šj-
+–ç7vw<É—ó&Cï¥¨ëRIaA
+¸`¦ƒ#†ëVÂH7b4VhÍ®§İ)LÊÂTµÅO‹ÿŒqŞÀİ‰±Õ,¤V?ø?ªcıÕw)>‘—WHeÌ1åõÒ::ÓŞh(I
 endstream
 endobj
-255 0 obj
-<</BBox[ 0 0 82.0256 71.1345]/Filter/FlateDecode/FormType 1/Length 132/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœ…Ë1‚@Fá~Nñ—X8Î€,ÔÍ$ W#YwãßHGeù’÷½I hK–²vh”µÚÖÈWDÚ	¬›A~À)»ª„İhsôá®aw*˜§”=Æ„.½ü
-Ö“`­Ê¶?°ˆââ‡)ŒÃŸmiö)va)Îì`t¦/xX,ı
+282 0 obj
+<</BBox[ 0 0 261.328 31.15]/Filter/FlateDecode/FormType 1/Length 102/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊ»
+ƒ@Ğş~Å-M³Î®ø¨Å@ÚÀ@jÑ‰(‹nñû…œúü †Æ»*t¬¼ó5³ñÃ½B¨Ó?óaãZ_K Î(_/†–úE1Ø9®Ñf¦|l6LqÜÔOÅ7‰B
 endstream
 endobj
-256 0 obj
-<</BBox[ 0 0 82.0256 71.1345]/Filter/FlateDecode/FormType 1/Length 132/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœ…Ë1‚@Fá~Nñ—X8Î€,ÔÍ$ W#YwãßHGeù’÷½I hK–²vh”µÚÖÈWDÚ	¬›A~À)»ª„İhsôá®aw*˜§”=Æ„.½ü
-Ö“`­Ê¶?°ˆââ‡)ŒÃŸmiö)va)Îì`t¦/xX,ı
+283 0 obj
+<</BBox[ 0 0 101.646 12.4515]/Filter/FlateDecode/FormType 1/Length 107/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊA
+Â0Ğı?Å_ÖMœ)I¡[iÁ`a ĞD,bjo/ô­ßB¡ŠºÎwÔÖù %ræ'ƒĞn{–„­ë}/vÇñ_U\ %4×’k®¿52'¦gùV—mÁh˜ğÜò£
 endstream
 endobj
-257 0 obj
-<</BBox[ 0 0 82.0256 71.1345]/Filter/FlateDecode/FormType 1/Length 132/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
-xœ…Ë1‚@Fá~Nñ—X8Î€,ÔÍ$ W#YwãßHGeù’÷½I hK–²vh”µÚÖÈWDÚ	¬›A~À)»ª„İhsôá®aw*˜§”=Æ„.½ü
-Ö“`­Ê¶?°ˆââ‡)ŒÃŸmiö)va)Îì`t¦/xX,ı
+284 0 obj
+<</BBox[ 0 0 88.6985 12.4515]/Filter/FlateDecode/FormType 1/Length 102/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊ±
+ƒ0Ğı~Åë_$‘d-]œE£PDc±_è™Ï¡0ÓÆàiã¼õ,‰=7<BÿEX]GP¿ÒzÑŠñÔîÎÃ61—ıÜÏoNõƒNñÆdÿo
 endstream
 endobj
-258 0 obj
-<</BBox[ 0 0 82.0256 12.0854]/Filter/FlateDecode/FormType 1/Length 100/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+285 0 obj
+<</BBox[ 0 0 95.8914 23.9584]/Filter/FlateDecode/FormType 1/Length 106/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊ±
+ƒ0Ğı~Åë’¾Ø<0k±ÅÅAxĞ¹h*-¢6ˆĞ¿/xæó…PÕUÑ–µ
+Ì‰Î¸„ÖE˜G}pA5Òœ›4íôâ”öÂéşŸë–k^¶eû­© }p3tø¯
+endstream
+endobj
+286 0 obj
+<</BBox[ 0 0 261.328 31.15]/Filter/FlateDecode/FormType 1/Length 104/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊ±
+ƒ0Ğı~Åë’¾DÔÎEÁEPxĞh“Ò"FÓ ôïÏ|6…®¶¦t7–ÖØŠÉóÁw…PŸg¦7„µil%úÂµ÷óN×P.cŠ9æÿêÃ'ı2Û¡ ~Ñ)&‰ñİ
+endstream
+endobj
+287 0 obj
+<</BBox[ 0 0 226.802 31.15]/Filter/FlateDecode/FormType 1/Length 100/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊ»
+ƒ@Ğş~Å-µÙÌø¨……´ÔAWAD×E‚ùû€§>„BÕÆu¢¬¼ó5sä›zƒĞ†;óaãZ_‹ÒF<qıR[Ú„"\é³Ly?÷ó—bI[/üä
+endstream
+endobj
+288 0 obj
+<</BBox[ 0 0 244.066 31.1501]/Filter/FlateDecode/FormType 1/Length 104/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
 xœÊ1
-ƒ@ĞşŸâ—±™ŒCF6­ ØX9€®BH²d	_È«ßJe2Qó­‰&¿±f>øAPÆò/ÊºCiâÉîÎXqóë`«âŒáTjæ¯p)ïÜ03N@Âí
+ƒ@ĞşŸâ—¦YgÔ]{IBšÂ@jÑMPDÍ"o/äÕï¡°¨*'!°T§^”)òÅAhı¿ÓÂàjõêiòGœ,jÚÙ}\º™×'·´îë~lñB›p3´8Yñ/
+endstream
+endobj
+289 0 obj
+<</BBox[ 0 0 701.534 91.5604]/Filter/FlateDecode/FormType 1/Length 162/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœUŒ½‚0F÷ûßˆƒõòG&.Æ˜4qn¤b(Ğ"Ñ§7°9äœÓƒ‘s(Ò8Á6iÆ	+ZÚKbÈÛ¢0†ŠY.Â(M KÚuıF”CŞ)Øa²ÃË´[ê¶E\ T^‰ä“ë˜EGsùÁ¹ó¦1_åmaïsWœ0ÿ€SF?ªÚøF7ïkíœ×[¾IúÊH5Y
+endstream
+endobj
+290 0 obj
+<</BBox[ 0 0 561.992 212.381]/Filter/FlateDecode/FormType 1/Length 163/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ…Œ±‚0E÷÷wÄÁÚEXcLš8¡X…VkÄ¯7àääxOÎ=OâàX%‚e™„’Å©€¯p†¥"u™_‡H×,[&P%-öUÓC®¡4E[gûÊckÈùÆ‡Áùûˆ®ˆs”E(fP7â˜Çœ‰X©ŸÁ´æ]ã,œ†ëüt6Zw¯‘µ®¬š¿™¯°St¢a_;_
+endstream
+endobj
+291 0 obj
+<</BBox[ 0 0 523.15 91.5604]/Filter/FlateDecode/FormType 1/Length 249/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœmÎ1oƒ0àİ¿âÆt(5¨²VTêÒ¡³ìÔøQÛÄÍ¿¯ ©ãI§ûîKHHTE™åNyVÕòOèàÄK+$Ú~oHøIHÔÇ¬x®Oh!ñ˜W™¬ë-<½‘½ /³
+í(!kÑ³»Ì8®Á°ÃÌÙ€ÑóŒ¢q‘‘Ø7!™¨Q6TTĞï‘»phŞa%DêµcËÓI›^CYOj¸B«€ 99,g6ÆSXm0QÓö",ª§ğyèö9^È…½=0{DÆ¸ú¨Éƒ¾ÕlÁŒˆzûcïâoıUŞœóÚŠñ$r`
+endstream
+endobj
+292 0 obj
+<</BBox[ 0 0 641.114 164.916]/Filter/FlateDecode/FormType 1/Length 254/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœm=OÃ0†wÿŠw,&NC+*R¤ÎVr©_ñ¹ı÷()RÇûzŸç¾M…
+mã¬s\ÛØg×"öHæ¥3º~]©¦‚«kÛ<=¢L…ûzk›m»oÏ¨ºÑlö„™cD/éL¹`àq<)KÂ$EÅ˜eB½§"˜%q:`æ°İağÅÛ;tŸÿ	ÜèíŞÁ
+D3
+õ!I”Ãsà>ÀÇL~¸ x…™Y&Ö–IO±èHN(;=úÔb¿¦É‘’®£A$£ÆS.2èÇOœ<¢Ö[>ª¬×„?:8-¯{={íÌ‡ù§ùw
+endstream
+endobj
+293 0 obj
+<</BBox[ 0 0 206.662 212.381]/Filter/FlateDecode/FormType 1/Length 160/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœmÌ±‚0àıŠq°–b G&.&MœM©Plh-U^ßÈfÒõî»{‡à%+K‘VÔ9‚Æ%qHµĞG^Wì°/!;Úµı@TÊ,ÚZ,.<u‡äHÛ‚³¼?œùàF­"Âİ{"K˜ÿA³™©G{I.ƒQÃjædmâÊ‹Ş™)BY÷îæUœ$]éyèB 
+endstream
+endobj
+294 0 obj
+<</BBox[ 0 0 318.872 151.971]/Filter/FlateDecode/FormType 1/Length 158/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ…ËÁ
+‚@Fáı}Ši‹lÆÁ¬­Ñ"r­y+ué&A=pÏà2r×ªåóİHAÁèU¸J"èX‡ëDC9<¥–ìiZäB
+:JÂØ,a+ZdìˆØ3»¢º#mFiGnÊw;ƒmHanT¨Mô?äµsuÑa+ã“‡ığbùÇ2öR·°×^Êf¬wû‰m,íé¹ı8V
+endstream
+endobj
+295 0 obj
+<</BBox[ 0 0 573.501 121.766]/Filter/FlateDecode/FormType 1/Length 208/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœmÌ±NÃ0FáİOñO•3œXiÄĞ¢Fa	¼˜Ö¥FÁ×Ü8E¼9#*[÷óO¡ Ğ´ºlT…ª®Êv>{<!Š+#Ìæ/Qà7¡pÑ–Z«f+Î~8 navBvô‘¦ìr è$úò+ëÎÌ»P8Óª¬t}”r^Ùñ7¬¼	q‹e>]­úVöaÃ4Ò.££Ê˜á>ùx¹D·wùvmlüqJa$>^îhï"^O„gzâì#úÒÿàÚˆñgËKÏ
+endstream
+endobj
+296 0 obj
+<</BBox[ 0 0 324.626 91.5604]/Filter/FlateDecode/FormType 1/Length 150/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœmË½‚0Ğı>Å7â –%®Mš8“r!…–"Ö¿·72»Ÿs#\©’
+Û,-•(03®i§I@›…Ì	¨*ÍdY@7´9²{BVĞ-%ç9ôl"¢õ{‡³ŞFn°‚îI`‹4Ëå¯%ûà§G¬£cí`‚Ÿ¿müü¡§Ú-†1¼7/æ éB_ì,1ó
+endstream
+endobj
+297 0 obj
+<</BBox[ 0 0 347.643 121.766]/Filter/FlateDecode/FormType 1/Length 132/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœUË±
+Â0àıâu0^r%AGA¡ƒİD£V$©§í³;ŠİÜ¿ïI†TÁøJ`5Á{hÂ™‘ñ4†^‰1F„=â™¦«ôèáâ…FÛ®MÚ7¯¢s¬Ëí˜qh´+Ø'ŒïÄ˜+î7ÿt]ô2êví@—‘6ôk(á
+endstream
+endobj
+298 0 obj
+<</BBox[ 0 0 210.978 91.5604]/Filter/FlateDecode/FormType 1/Length 101/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊK
+Â0Ğù]Åê$}	ù´SAq*<p&
+%DšV»}Á3>„BgÅLiädMˆâÙïl8)„úøaA“±.xjÆp-õK—¨O.¥Ö÷ÎuûäÒ¶•GêŒ³â†4ˆ´
+endstream
+endobj
+299 0 obj
+<</BBox[ 0 0 731.745 91.5604]/Filter/FlateDecode/FormType 1/Length 167/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœ%Ì»
+Â0àı<Å?ê`LzÅU\D„€shOmí%˜¤-}{iİ?¾/IHä±y’â¤DšÉñÂ@gMºØˆ„{“D–¥	tIÇw¢º¢®M@¨—;z[r‡™Ñ›–QZölÀl]»‡şÄ!–BÅÑºì¡f‡qh&v¾	
+;:Ïa-{³ÀTÿ=4=Ãt-Lhì °…WMOúıã:*
+endstream
+endobj
+300 0 obj
+<</BBox[ 0 0 225.364 41.2184]/Filter/FlateDecode/FormType 1/Length 98/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœÊ;
+„0Ğş®â–ÚdI©ÁRáğ3(¢ø™Y¿à©Ï¡ĞÚÜ¸àé3c³èyì¸¡Pµ‹ğüBMpÑEê€O=®º@4û¼İ,×ı7\)uA¥hñ Íò&
+endstream
+endobj
+301 0 obj
+<</BBox[ 0 0 654.061 91.5604]/Filter/FlateDecode/FormType 1/Length 186/Matrix[ 1 0 0 1 0 0]/Resources<</Font<</Helv 166 0 R >>>>/Subtype/Form/Type/XObject>>stream
+xœmÌ1nÂ@Fá~Nñ— gll#ZD$KˆeêÅÂÚë±2XHpàœÁe”¤Mÿ½÷IFYä	—)ÖiR”œÃG(m1\ıKöAŒr•¤Y‘Ã5ô\I¼![ÁiV‰Zèà.ƒÚÉÕ{Ñö¾¹bÓNÖ	Ş¥=}uÌáZb<-9I—ÙÏkv1ßcgÓ]¯£èøûzmà¤¾h¨}Ä›†›Ø5ŒwglE{oşºGú>íAT
 endstream
 endobj
 xref
@@ -1193,113 +1270,127 @@ xref
 128 35
 0000011985 00000 n
 0000012153 00000 n
-0000012902 00000 n
-0000013045 00000 n
-0000013588 00000 n
-0000013723 00000 n
-0000013776 00000 n
-0000019369 00000 n
-0000026477 00000 n
-0000033750 00000 n
-0000040358 00000 n
-0000047392 00000 n
-0000053610 00000 n
-0000060135 00000 n
-0000065981 00000 n
-0000066119 00000 n
-0000066232 00000 n
-0000066349 00000 n
-0000066460 00000 n
-0000066533 00000 n
-0000066633 00000 n
-0000071027 00000 n
-0000071300 00000 n
-0000071676 00000 n
-0000071708 00000 n
-0000072172 00000 n
-0000077747 00000 n
-0000078005 00000 n
-0000078496 00000 n
-0000078577 00000 n
-0000078903 00000 n
-0000078984 00000 n
-0000079379 00000 n
-0000082779 00000 n
-0000086187 00000 n
-165 5
-0000086252 00000 n
-0000086342 00000 n
-0000086435 00000 n
-0000086665 00000 n
-0000086959 00000 n
-172 2
-0000087249 00000 n
-0000087588 00000 n
-175 2
-0000087975 00000 n
-0000088374 00000 n
-178 2
-0000088671 00000 n
-0000089022 00000 n
-182 2
-0000089267 00000 n
-0000089572 00000 n
+0000012893 00000 n
+0000013036 00000 n
+0000013579 00000 n
+0000013714 00000 n
+0000013767 00000 n
+0000019360 00000 n
+0000026468 00000 n
+0000033741 00000 n
+0000040349 00000 n
+0000047383 00000 n
+0000053601 00000 n
+0000060126 00000 n
+0000065972 00000 n
+0000066110 00000 n
+0000066223 00000 n
+0000066340 00000 n
+0000066451 00000 n
+0000066524 00000 n
+0000066624 00000 n
+0000071018 00000 n
+0000071291 00000 n
+0000071667 00000 n
+0000071699 00000 n
+0000072163 00000 n
+0000077738 00000 n
+0000077996 00000 n
+0000078487 00000 n
+0000078568 00000 n
+0000078894 00000 n
+0000078975 00000 n
+0000079370 00000 n
+0000082770 00000 n
+0000086178 00000 n
+165 3
+0000086243 00000 n
+0000086333 00000 n
+0000086426 00000 n
+169 1
+0000086654 00000 n
+176 1
+0000087116 00000 n
+179 1
+0000087429 00000 n
+183 1
+0000087733 00000 n
 186 1
-0000089873 00000 n
+0000088032 00000 n
 188 1
-0000090112 00000 n
-192 1
-0000090351 00000 n
+0000088270 00000 n
 197 1
-0000090652 00000 n
-211 1
-0000091146 00000 n
+0000088508 00000 n
 213 1
-0000091537 00000 n
-217 1
-0000091903 00000 n
-219 2
-0000092258 00000 n
-0000092655 00000 n
-222 2
-0000092946 00000 n
-0000093301 00000 n
-226 2
-0000093576 00000 n
-0000093906 00000 n
-229 4
-0000094145 00000 n
-0000094440 00000 n
-0000094799 00000 n
-0000095205 00000 n
-234 2
-0000095492 00000 n
-0000095839 00000 n
-237 22
-0000096162 00000 n
-0000096486 00000 n
-0000096851 00000 n
-0000097155 00000 n
-0000097459 00000 n
-0000097823 00000 n
-0000098056 00000 n
-0000098353 00000 n
-0000098612 00000 n
-0000098937 00000 n
-0000099174 00000 n
-0000099471 00000 n
-0000099706 00000 n
-0000100002 00000 n
-0000100299 00000 n
-0000100596 00000 n
-0000100898 00000 n
-0000101194 00000 n
-0000101521 00000 n
-0000101849 00000 n
-0000102177 00000 n
-0000102505 00000 n
+0000088999 00000 n
+220 1
+0000089364 00000 n
+223 1
+0000089652 00000 n
+227 1
+0000089924 00000 n
+230 1
+0000090161 00000 n
+232 1
+0000090520 00000 n
+235 1
+0000090806 00000 n
+237 1
+0000091128 00000 n
+242 1
+0000091453 00000 n
+244 1
+0000091686 00000 n
+246 1
+0000091944 00000 n
+248 1
+0000092179 00000 n
+259 43
+0000092411 00000 n
+0000092808 00000 n
+0000093205 00000 n
+0000093602 00000 n
+0000093943 00000 n
+0000094285 00000 n
+0000094602 00000 n
+0000094959 00000 n
+0000095315 00000 n
+0000095707 00000 n
+0000096096 00000 n
+0000096492 00000 n
+0000096818 00000 n
+0000097111 00000 n
+0000097404 00000 n
+0000097730 00000 n
+0000098121 00000 n
+0000098517 00000 n
+0000098843 00000 n
+0000099135 00000 n
+0000099532 00000 n
+0000099858 00000 n
+0000100150 00000 n
+0000100476 00000 n
+0000100772 00000 n
+0000101075 00000 n
+0000101373 00000 n
+0000101675 00000 n
+0000101973 00000 n
+0000102267 00000 n
+0000102567 00000 n
+0000102925 00000 n
+0000103284 00000 n
+0000103728 00000 n
+0000104178 00000 n
+0000104534 00000 n
+0000104888 00000 n
+0000105292 00000 n
+0000105638 00000 n
+0000105966 00000 n
+0000106263 00000 n
+0000106626 00000 n
+0000106919 00000 n
 trailer
-<</Info 5 0 R /Root 128 0 R /Size 259/ID[<E32D396CF296AF4FB03BCC1E6BFEFEBA><C82F9D1754BF22491AA5EFC29DC4E32A>]>>
+<</Info 5 0 R /Root 128 0 R /Size 302/ID[<E32D396CF296AF4FB03BCC1E6BFEFEBA><9E290D728C8A49D646A8B4034FD44255>]>>
 startxref
-102801
+107301
 %%EOF
