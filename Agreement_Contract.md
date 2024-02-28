@@ -43,7 +43,3 @@ B) Should any issues arise within the group, we will allow each person to expres
 
 All project members have agree on this document. 
 
-
-
-
-_______________________________________________  _______________________________________________  _______________________________________________  
