@@ -40,3 +40,8 @@ We sent Johan our research questions and got a greenlight for the three seen bel
 
 We made the project description draft, which have been sent to Morten Mørup to get back feedback.
 
+### 13.03.2024
+Since last our focus haven been researching the given scientific papers' Github and looking at some of the cod. It has been a big task because all models we have found have $\approx$ 900 lines of code, which does not have much comments on it. 
+The deadline for the bigger draft of the introduction, state-of-the-art, method has been moved 3 days, which gives us more time. 
+From the lecture today we had head about the European AI Art and we where told to include (in the discussion section) how our AI model / project fits in the 17 Sustainable Development Goals (SDGs) adopted by all United Nations States.
+We talk with Morten Mørup on how the project parts for the upcoming deadline should be structured. 
