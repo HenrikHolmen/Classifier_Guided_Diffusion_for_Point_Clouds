@@ -1,9 +1,9 @@
 Agreement Contract for project: Classifier Guided Diffusion For Point Clouds
-Last edit 07.02.24
+Last edit 13.03.24
 
 ### Meetings:
 A) Time and Place:
-Meetings are scheduled for every Wednesday from 10:00 to 17:30, with some flexibility. Initially, weekends are reserved for other school work. However, if necessary due to time constraints, we may consider utilizing some weekends as well.
+Meetings are scheduled for every Wednesday from 08:00 to 17:30, with some flexibility. Initially, weekends are reserved for other school work. However, if necessary due to time constraints, we may consider utilizing some weekends as well.
 
 We agreed to conduct a weekly status review every Wednesday, allocating 15-30 minutes to evaluate our progress. We'll use software called PLANE (link) to help organize the different project tasks.
 
