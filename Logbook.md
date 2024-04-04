@@ -82,3 +82,22 @@ I did not wanted reach out to them, because both was sick and I felt that Its th
 After the deadline and after I e-mailed the feedback group our project I have still not hear anything from them and I do not know if they even has read the project.
 
 It's a learning point on the importance of communication, especially in facing challenges that impact team dynamics.
+
+### 03.04.2024
+We agreed on meeting at DTU building 324 at 09.00 o'clock, Mads and I (Henrik) showed up, but William did not show up and we stopped 15.30 and at the time we still had not heard from William. 
+
+Mads read the feedback group and I asked which feedback he had, the only thing he found was one word ("pertain") in their research question line ("Can fNIRS­based BCIs be implemented in clinical settings and what challenges can this
+pertain?") which he wish they had changed. I read their report 2 times over 2 days and I made a lot of feedback, also doing the 2 page long Latex document to the other group, and I did decide that this feedback from Mads, was not taken into account, because I already did write in about that they should change the research question so it can not be answered with a yes/no. 
+
+Images of my own feedback notes, can bee seen under section "AL_Proms folder" -> "Group feedback Chatgpt"
+
+I wrote to the other group and they was only able to meet Monday next weekend, where Mads and William are working. I told Mads about it, and it was fine that I only attended and I will write a summarize from the meeting.
+
+| |        Parts       |  | Henrik | Mads | William |
+|:------:|:------------------:|:--------:|:------:|:----:|:-------:|
+|    |                    | 03.04.2024 |        |      |         |
+|        | Feedback to other grup |          |  99%  |   1%   |   0%  |
+|        | Wrote Latex document     |          |  100%  |   0%   |   0%  |
+|        | Agreed meeting with other group           |          |  100%  |   0%   |   0%  |
+
+
