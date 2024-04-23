@@ -100,4 +100,8 @@ I wrote to the other group and they was only able to meet Monday next weekend, w
 |        | Wrote Latex document     |          |  100%  |   0%   |   0%  |
 |        | Agreed meeting with other group           |          |  100%  |   0%   |   0%  |
 
+### 10.04.2024
+Physic meeting with MMOR and Johan with Mads and William
 
+### 18.04.2024
+Virtuelt meeting with Johan
