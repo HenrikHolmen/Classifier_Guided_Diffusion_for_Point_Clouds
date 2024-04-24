@@ -100,8 +100,36 @@ I wrote to the other group and they was only able to meet Monday next weekend, w
 |        | Wrote Latex document     |          |  100%  |   0%   |   0%  |
 |        | Agreed meeting with other group           |          |  100%  |   0%   |   0%  |
 
+### 08.04.2024
+Physics Meeting with Feedback Group
+
+I was the only representative from our group at the meeting. Initially, I presented our feedback on their project concerning brain activity during human unconsciousness. Although they had not prepared a document by the time of the meeting, they sent me the feedback comments afterward. I plan to review these comments thoroughly after the upcoming exam period, ideally in the week before the three-week session begins. 
+
 ### 10.04.2024
-Physic meeting with MMOR and Johan with Mads and William
+Physics Meeting with: Morten Mørup, Johan Yu, Mads, William, Henrik Present
+
+At the meeting, Morten Mørup expressed his dissatisfaction with Mads and William for their lack of participation in the project up to the second deadline. After a thorough discussion, each of us was asked what we wished to happen next. William expressed a desire to reunite the group and make a fresh start. Mads also wanted to start over and begin contributing to the project. Although I was let down by both of them, and I value them as friends, I saw no other option than to split up the group. I am a team player, but their failure to contribute for four weeks was too much to overlook. I have worked hard to meet the project deadlines on my own, attending all feedback sessions and meetings by myself. Moving forward, I hope to learn a lot from this project, and I've realized how crucial it is to have project team members who can work collaboratively and take responsibility for making the project as successful as possible.
+
+We agreed that Mads and William could have access to all the materials I had created to date, including feedback from other groups.
+
+Our supervisor, Morten Mørup, viewed the decision to split the group as the best solution. After the meeting, Johan and I reviewed the project to determine if any adjustments were necessary. He saw no need for changes, and we agreed that I would continue with the project alone.
 
 ### 18.04.2024
-Virtuelt meeting with Johan
+Virtual Meeting with Johan: Review of the Scientific Paper
+
+During our virtual meeting, Johan and I went through the scientific paper "Diffusion Probabilistic Models for 3D Point Cloud Generation" by Luo & Hu. We discussed various mathematical concepts presented in the paper. Johan felt that I have a solid basic understanding of the material, but I personally feel less confident. I would like to gain a deeper understanding of the forward and backward diffusion processes.
+
+### 23.04.2024
+Since the last update, I successfully set up the high-performance computer (HPC) for the point cloud auto-encoder project. I also received assistance from ChatGPT with the Earth Mover’s Distance (EMD) code, which Luo and Hu reported was corrupted due to GPU stability issues.
+
+I discovered that their main training loop was set to run indefinitely. After discussing this with Johan Ye, we agreed to let it run for 24 hours to establish a baseline and achieve convergence without causing overfitting.
+
+The first run on the cluster lasted 3 hours and completed without any errors.
+
+### 24.04.2024
+I have modified the main loop in the code to saves a checkpoint every 10 iterations instead of after every single run, which helps conserve space on the cluster. Additionally, the auto-encoder baseline, "test_ae.py," has been configured to run for 24 hours on the high-performance computer (HPC), utilizing 1 host, 4 cores, and 6GB RAM.
+
+I still have several open tasks:
+- Creating a comprehensive Gantt chart after the group was split.
+- Thoroughly reviewing the feedback from the other group.
+- Updating the project canvas.
