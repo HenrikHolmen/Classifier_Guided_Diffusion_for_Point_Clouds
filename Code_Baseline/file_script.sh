@@ -14,13 +14,13 @@
 ### -- specify that the cores must be on the same host --
 #BSUB -R "span[hosts=1]"
 ### -- specify that we need xGB of memory per core/slot --
-#BSUB -R "rusage[mem=16GB]"
+#BSUB -R "rusage[mem=6GB]"
 ###BSUB -R "select[gpu80gb]"
 #BSUB -R "select[gpu32gb]"
 #### -- specify that we want the job to get killed if it exceeds 5 GB per core/slot --
 ###BSUB -M 128GB
 ### -- set walltime limit: hh:mm --
-#BSUB -W 03:00
+#BSUB -W 24:00
 ### -- set the email address --
 #BSUB -u s210659@dtu.dk
 ### -- send notification at start --
