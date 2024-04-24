@@ -203,7 +203,8 @@ try:
                 'optimizer': optimizer.state_dict(),
                 'scheduler': scheduler.state_dict(),
             }
-            ckpt_mgr.save(model, args, cd_loss, opt_states, step=it)
+            if it % args.val_freq * 10 == 0: # Saves one time per 10 validations
+                ckpt_mgr.save(model, args, cd_loss, opt_states, step=it)
         it += 1
 
 except KeyboardInterrupt:
