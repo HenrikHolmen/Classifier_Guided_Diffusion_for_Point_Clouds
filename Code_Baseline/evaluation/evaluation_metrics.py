@@ -206,10 +206,10 @@ def compute_all_metrics(sample_pcs, ref_pcs, batch_size):
     })
 
     ## EMD
-    # res_emd = lgan_mmd_cov(M_rs_emd.t())
-    # results.update({
-    #     "%s-EMD" % k: v for k, v in res_emd.items()
-    # })
+    res_emd = lgan_mmd_cov(M_rs_emd.t())
+    results.update({
+        "%s-EMD" % k: v for k, v in res_emd.items()
+    })
 
     for k, v in results.items():
         print('[%s] %.8f' % (k, v.item()))
@@ -224,10 +224,10 @@ def compute_all_metrics(sample_pcs, ref_pcs, batch_size):
         "1-NN-CD-%s" % k: v for k, v in one_nn_cd_res.items() if 'acc' in k
     })
     ## EMD
-    # one_nn_emd_res = knn(M_rr_emd, M_rs_emd, M_ss_emd, 1, sqrt=False)
-    # results.update({
-    #     "1-NN-EMD-%s" % k: v for k, v in one_nn_emd_res.items() if 'acc' in k
-    # })
+    one_nn_emd_res = knn(M_rr_emd, M_rs_emd, M_ss_emd, 1, sqrt=False)
+    results.update({
+        "1-NN-EMD-%s" % k: v for k, v in one_nn_emd_res.items() if 'acc' in k
+    })
 
     return results
 

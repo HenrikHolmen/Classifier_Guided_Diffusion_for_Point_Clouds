@@ -133,3 +133,23 @@ I still have several open tasks:
 - Creating a comprehensive Gantt chart after the group was split.
 - Thoroughly reviewing the feedback from the other group.
 - Updating the project canvas.
+- Need to write about UN global goals in project
+
+NOTES From lecture: 
+
+Deadline next onsdag 01.05 upload updated project plan. 
+Write Morten about pitch part
+
+- Show old vs. new
+- Redegører for hvad der er ændret
+
+Vend lige hvordan jeg laver revison på projektplanen: 
+Gantt chart 
+Canvas
+
+Aflevering 24.06 project 23.59
+Videopitch 25.06 23.59
+
+Exam between 26.06 and 28.06
+Sent Morten Mørup and email about exam time/date (26.06-28.06) between 13.00 - 17.00. We need to coordinate with our supervisor (Johan Ye)
+

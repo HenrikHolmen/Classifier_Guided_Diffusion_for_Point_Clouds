@@ -14,7 +14,7 @@ from models.vae_gaussian import *
 from models.vae_flow import *
 from models.flow import add_spectral_norm, spectral_norm_power_iteration
 from evaluation import *
-
+from _globals import *
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -36,7 +36,7 @@ parser.add_argument('--residual', type=eval, default=True, choices=[True, False]
 parser.add_argument('--spectral_norm', type=eval, default=False, choices=[True, False])
 
 # Datasets and loaders
-parser.add_argument('--dataset_path', type=str, default='./data/shapenet.hdf5')
+parser.add_argument('--dataset_path', type=str, default=os.path.join(HPC_WORK3,'data/shapenet.hdf5'))
 parser.add_argument('--categories', type=str_list, default=['airplane'])
 parser.add_argument('--scale_mode', type=str, default='shape_unit')
 parser.add_argument('--train_batch_size', type=int, default=128)
@@ -53,7 +53,7 @@ parser.add_argument('--sched_end_epoch', type=int, default=400*THOUSAND)
 # Training
 parser.add_argument('--seed', type=int, default=2020)
 parser.add_argument('--logging', type=eval, default=True, choices=[True, False])
-parser.add_argument('--log_root', type=str, default='./logs_gen')
+parser.add_argument('--log_root', type=str, default=os.path.join(HPC_HOME,'projects/probabilistic_diffusion_model/logs/logs_gen'))
 parser.add_argument('--device', type=str, default='cuda')
 parser.add_argument('--max_iters', type=int, default=float('inf'))
 parser.add_argument('--val_freq', type=int, default=1000)
@@ -190,15 +190,15 @@ def test(it):
     writer.add_scalar('test/MMD_CD', results['lgan_mmd-CD'], global_step=it)
     writer.add_scalar('test/1NN_CD', results['1-NN-CD-acc'], global_step=it)
     # EMD related metrics
-    # writer.add_scalar('test/Coverage_EMD', results['lgan_cov-EMD'], global_step=it)
-    # writer.add_scalar('test/MMD_EMD', results['lgan_mmd-EMD'], global_step=it)
-    # writer.add_scalar('test/1NN_EMD', results['1-NN-EMD-acc'], global_step=it)
+    writer.add_scalar('test/Coverage_EMD', results['lgan_cov-EMD'], global_step=it)
+    writer.add_scalar('test/MMD_EMD', results['lgan_mmd-EMD'], global_step=it)
+    writer.add_scalar('test/1NN_EMD', results['1-NN-EMD-acc'], global_step=it)
     # JSD
     writer.add_scalar('test/JSD', results['jsd'], global_step=it)
 
-    # logger.info('[Test] Coverage  | CD %.6f | EMD %.6f' % (results['lgan_cov-CD'], results['lgan_cov-EMD']))
-    # logger.info('[Test] MinMatDis | CD %.6f | EMD %.6f' % (results['lgan_mmd-CD'], results['lgan_mmd-EMD']))
-    # logger.info('[Test] 1NN-Accur | CD %.6f | EMD %.6f' % (results['1-NN-CD-acc'], results['1-NN-EMD-acc']))
+    logger.info('[Test] Coverage  | CD %.6f | EMD %.6f' % (results['lgan_cov-CD'], results['lgan_cov-EMD']))
+    logger.info('[Test] MinMatDis | CD %.6f | EMD %.6f' % (results['lgan_mmd-CD'], results['lgan_mmd-EMD']))
+    logger.info('[Test] 1NN-Accur | CD %.6f | EMD %.6f' % (results['1-NN-CD-acc'], results['1-NN-EMD-acc']))
     logger.info('[Test] Coverage  | CD %.6f | EMD n/a' % (results['lgan_cov-CD'], ))
     logger.info('[Test] MinMatDis | CD %.6f | EMD n/a' % (results['lgan_mmd-CD'], ))
     logger.info('[Test] 1NN-Accur | CD %.6f | EMD n/a' % (results['1-NN-CD-acc'], ))

@@ -5,7 +5,7 @@ import torch.utils.tensorboard
 from torch.nn.utils import clip_grad_norm_
 from tqdm.auto import tqdm
 
-from globals import HPC_WORK3, HPC_HOME
+from _globals import HPC_WORK3, HPC_HOME
 from utils.dataset import *
 from utils.misc import *
 from utils.data import *
