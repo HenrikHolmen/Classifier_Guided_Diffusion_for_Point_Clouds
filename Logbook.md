@@ -130,26 +130,17 @@ The first run on the cluster lasted 3 hours and completed without any errors.
 I have modified the main loop in the code to saves a checkpoint every 10 iterations instead of after every single run, which helps conserve space on the cluster. Additionally, the auto-encoder baseline, "test_ae.py," has been configured to run for 24 hours on the high-performance computer (HPC), utilizing 1 host, 4 cores, and 6GB RAM.
 
 I still have several open tasks:
-- Creating a comprehensive Gantt chart after the group was split.
-- Thoroughly reviewing the feedback from the other group.
+- Creating a comprehensive Gantt chart after the group was split. (DONE)
+- Thoroughly reviewing the feedback from the other group. (DONE)
 - Updating the project canvas.
 - Need to write about UN global goals in project
 
-NOTES From lecture: 
+### 28.04.2024
 
-Deadline next onsdag 01.05 upload updated project plan. 
-Write Morten about pitch part
+Went through the feedback from the other group and change the project to fit the feedback. 
 
-- Show old vs. new
-- Redegører for hvad der er ændret
+### 29.04.2024
+I have made the a much more detailed Gantt and updated the project canvas. I was lucky to get in contact with a chinese master student in Diffusion models, who I asked about my research question in reducing diffusion steps. He had some friends in Peking University were Huo and Lu are from, so they tried to find if they were still there. But they had already graduated, but from my conversion with him, I got a much better understanding that normally the only way to reduce the steps is to build a new model. And he was not so sure how much a difference it would make, if I try to trick the variance schedule in the model. 
 
-Vend lige hvordan jeg laver revison på projektplanen: 
-Gantt chart 
-Canvas
-
-Aflevering 24.06 project 23.59
-Videopitch 25.06 23.59
-
-Exam between 26.06 and 28.06
-Sent Morten Mørup and email about exam time/date (26.06-28.06) between 13.00 - 17.00. We need to coordinate with our supervisor (Johan Ye)
-
+### 01.05.2024
+Uploaded documents to Learn for last deadline before the 3-week period. 
