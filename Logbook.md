@@ -143,4 +143,7 @@ Went through the feedback from the other group and change the project to fit the
 I have made the a much more detailed Gantt and updated the project canvas. I was lucky to get in contact with a chinese master student in Diffusion models, who I asked about my research question in reducing diffusion steps. He had some friends in Peking University were Huo and Lu are from, so they tried to find if they were still there. But they had already graduated, but from my conversion with him, I got a much better understanding that normally the only way to reduce the steps is to build a new model. And he was not so sure how much a difference it would make, if I try to trick the variance schedule in the model. 
 
 ### 01.05.2024
-Uploaded documents to Learn for last deadline before the 3-week period. 
+Uploaded documents to Learn for last deadline before the 3-week period. The next month exam period starts so project will be on hold until 06.06.2024.
+
+### 06.06.2024
+Today I was at the lecture with Morten Mørup to hear about the last parth of the course. I also made path changes to the test file for the autoencoder so it can run. But unfortunately, I saw that the HPC slot I has I full. So after written to the HPC support, I need to find out how to move the files to another slot (200GB) and also reinstall the whole environment for this slot. I will wait for my friend to help me set it up, so I do not lose any of the progress I have made by running "train_ae.py" and "train_gen.py" for 24 hours each. I updated the Gantt Chart with the current progress.

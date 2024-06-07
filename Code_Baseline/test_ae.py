@@ -13,12 +13,15 @@ from evaluation import EMD_CD
 
 # Arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('--ckpt', type=str, default='./pretrained/AE_airplane.pt')
+# parser.add_argument('--ckpt', type=str, default='./pretrained/AE_airplane.pt')
+parser.add_argument('--ckpt', type=str, default=os.path.join(HPC_HOME,'projects/probabilistic_diffusion_model/code/Code_Baseline/pretrained/AE_airplane.pt'))
 parser.add_argument('--categories', type=str_list, default=['airplane'])
-parser.add_argument('--save_dir', type=str, default='./results')
+# parser.add_argument('--save_dir', type=str, default='./results')
+parser.add_argument('--save_dir', type=str, default=os.path.join(HPC_HOME,'projects/probabilistic_diffusion_model/code/Code_Baseline/results'))
 parser.add_argument('--device', type=str, default='cuda')
 # Datasets and loaders
-parser.add_argument('--dataset_path', type=str, default='./data/shapenet.hdf5')
+# parser.add_argument('--dataset_path', type=str, default='./data/shapenet.hdf5')
+parser.add_argument('--dataset_path', type=str, default=os.path.join(HPC_WORK3,'data/shapenet.hdf5'))
 parser.add_argument('--batch_size', type=int, default=128)
 args = parser.parse_args()
 

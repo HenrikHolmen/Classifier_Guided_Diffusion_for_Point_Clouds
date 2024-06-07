@@ -39,4 +39,4 @@ source ~/.bashrc
 conda activate dpm-pc-gen
 module load cuda/10.1
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/zhome/0f/e/160664/miniconda3/lib/
-python /zhome/0f/e/160664/projects/probabilistic_diffusion_model/code/Code_Baseline/train_ae.py
+python /zhome/0f/e/160664/projects/probabilistic_diffusion_model/code/Code_Baseline/test_ae.py
