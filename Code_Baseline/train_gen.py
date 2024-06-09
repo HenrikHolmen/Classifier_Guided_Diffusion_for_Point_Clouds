@@ -22,8 +22,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--model', type=str, default='flow', choices=['flow', 'gaussian'])
 parser.add_argument('--latent_dim', type=int, default=256)
 parser.add_argument('--num_steps', type=int, default=100)
-parser.add_argument('--beta_1', type=float, default=1e-4)
-parser.add_argument('--beta_T', type=float, default=0.02)
+parser.add_argument('--beta_1', type=float, default=1e-4) # Change with cross validation
+parser.add_argument('--beta_T', type=float, default=0.02) # Change with cross validation
 parser.add_argument('--sched_mode', type=str, default='linear')
 parser.add_argument('--flexibility', type=float, default=0.0)
 parser.add_argument('--truncate_std', type=float, default=2.0)
@@ -53,11 +53,11 @@ parser.add_argument('--sched_end_epoch', type=int, default=400*THOUSAND)
 # Training
 parser.add_argument('--seed', type=int, default=2020)
 parser.add_argument('--logging', type=eval, default=True, choices=[True, False])
-parser.add_argument('--log_root', type=str, default=os.path.join(HPC_HOME,'projects/probabilistic_diffusion_model/logs/logs_gen'))
+parser.add_argument('--log_root', type=str, default=os.path.join(HPC_WORK3,'baseline_gen24h'))
 parser.add_argument('--device', type=str, default='cuda')
 parser.add_argument('--max_iters', type=int, default=float('inf'))
 parser.add_argument('--val_freq', type=int, default=1000)
-parser.add_argument('--test_freq', type=int, default=30*THOUSAND)
+parser.add_argument('--test_freq', type=int, default=1*THOUSAND)
 parser.add_argument('--test_size', type=int, default=400)
 parser.add_argument('--tag', type=str, default=None)
 args = parser.parse_args()
@@ -216,7 +216,9 @@ try:
                 'optimizer': optimizer.state_dict(),
                 'scheduler': scheduler.state_dict(),
             }
-            ckpt_mgr.save(model, args, 0, others=opt_states, step=it)
+
+            if it % args.val_freq * 10 == 0: # Saves one time per 10 validations
+                ckpt_mgr.save(model, args, 0, others=opt_states, step=it)
         if it % args.test_freq == 0 or it == args.max_iters:
             test(it)
         it += 1

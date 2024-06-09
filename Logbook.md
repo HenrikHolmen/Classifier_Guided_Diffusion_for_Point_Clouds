@@ -147,3 +147,14 @@ Uploaded documents to Learn for last deadline before the 3-week period. The next
 
 ### 06.06.2024
 Today I was at the lecture with Morten Mørup to hear about the last parth of the course. I also made path changes to the test file for the autoencoder so it can run. But unfortunately, I saw that the HPC slot I has I full. So after written to the HPC support, I need to find out how to move the files to another slot (200GB) and also reinstall the whole environment for this slot. I will wait for my friend to help me set it up, so I do not lose any of the progress I have made by running "train_ae.py" and "train_gen.py" for 24 hours each. I updated the Gantt Chart with the current progress.
+
+### 07.06.2024
+I'm still on a hold with the HPC hoping for my friends help tomorrow, to move files to the new 200GB slot on the HPC.
+I have today read the scientific paper again about denoising diffusion probabilistic models by Huo and Lu and then I have read my project in Overleaf to be upto date with the project.
+
+### 08.06.2024
+I have been writting more to the project and tryed to get a better flow in the text. I have added the 3D object image which was missing. My friend and I have solved the HPC issue which was the 30GB limit on the home workspace on the HPC. And moved some of the training files and log files to the 200GB workspace. I also ran the two test files "test_ae.py" and "test_gen.py". From test.ae.py I got a numpy file which I plotted and I came out as an airplane. So the autoencoder is working. 
+But I also encounters a new problem with the reseach question 2. Where in the code I have found the place where I can change the "num_steps", "beta_1", "beta_T" for the variance schedule. But optimizing this way and finding a better values requires that I use cross validation, which does not converage before 16-20 hours, and I agreed with Johan (Supervisor) to lad it run for 24 hours. And if I do corss validation it will take a long time, where the limites on the HPC will be a another problem and also the deadline. I sent Morten Mørup an e-mail about the problem and asked what to do in this situration.
+
+### 09.06.2024
+After plotting the validation to see if the train_gen.py converages over time, I found that the baseline model only validate the samples every 30.000, which endup giving me only 6 points to plot, so  the code has been change so it should now validate every 1000 samples. The file has been submitted to the HPC to run for 24 hours to get the log file.  

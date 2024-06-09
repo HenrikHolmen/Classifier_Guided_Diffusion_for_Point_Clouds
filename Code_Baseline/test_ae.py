@@ -4,6 +4,7 @@ import argparse
 import torch
 from tqdm.auto import tqdm
 
+from _globals import HPC_WORK3, HPC_HOME
 from utils.dataset import *
 from utils.misc import *
 from utils.data import *
@@ -14,10 +15,10 @@ from evaluation import EMD_CD
 # Arguments
 parser = argparse.ArgumentParser()
 # parser.add_argument('--ckpt', type=str, default='./pretrained/AE_airplane.pt')
-parser.add_argument('--ckpt', type=str, default=os.path.join(HPC_HOME,'projects/probabilistic_diffusion_model/code/Code_Baseline/pretrained/AE_airplane.pt'))
+parser.add_argument('--ckpt', type=str, default=os.path.join(HPC_HOME,'projects/probabilistic_diffusion_model/logs/logs_ae/AE_2024_04_24__10_25_56/ckpt_0.000188_513000.pt'))
 parser.add_argument('--categories', type=str_list, default=['airplane'])
 # parser.add_argument('--save_dir', type=str, default='./results')
-parser.add_argument('--save_dir', type=str, default=os.path.join(HPC_HOME,'projects/probabilistic_diffusion_model/code/Code_Baseline/results'))
+parser.add_argument('--save_dir', type=str, default=os.path.join(HPC_WORK3,'baseline_ae_test_results'))
 parser.add_argument('--device', type=str, default='cuda')
 # Datasets and loaders
 # parser.add_argument('--dataset_path', type=str, default='./data/shapenet.hdf5')

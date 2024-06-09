@@ -5,6 +5,7 @@ import argparse
 import torch
 from tqdm.auto import tqdm
 
+from _globals import HPC_WORK3
 from utils.dataset import *
 from utils.misc import *
 from utils.data import *
@@ -35,12 +36,12 @@ def normalize_point_clouds(pcs, mode, logger):
 
 # Arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('--ckpt', type=str, default='./pretrained/GEN_airplane.pt')
+parser.add_argument('--ckpt', type=str, default=os.path.join(HPC_WORK3,'baseline_gen24h/ckpt_0.000000_184000.pt'))
 parser.add_argument('--categories', type=str_list, default=['airplane'])
-parser.add_argument('--save_dir', type=str, default='./results')
+parser.add_argument('--save_dir', type=str, default=os.path.join(HPC_WORK3,'baseline_gen_test_results'))
 parser.add_argument('--device', type=str, default='cuda')
 # Datasets and loaders
-parser.add_argument('--dataset_path', type=str, default='./data/shapenet.hdf5')
+parser.add_argument('--dataset_path', type=str, default=os.path.join(HPC_WORK3,'data/shapenet.hdf5'))
 parser.add_argument('--batch_size', type=int, default=128)
 # Sampling
 parser.add_argument('--sample_num_points', type=int, default=2048)
