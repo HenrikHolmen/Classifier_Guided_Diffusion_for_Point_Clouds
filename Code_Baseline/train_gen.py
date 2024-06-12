@@ -21,9 +21,9 @@ parser = argparse.ArgumentParser()
 # Model arguments
 parser.add_argument('--model', type=str, default='flow', choices=['flow', 'gaussian'])
 parser.add_argument('--latent_dim', type=int, default=256)
-parser.add_argument('--num_steps', type=int, default=100)
-parser.add_argument('--beta_1', type=float, default=1e-4) # Change with cross validation
-parser.add_argument('--beta_T', type=float, default=0.02) # Change with cross validation
+parser.add_argument('--num_steps', type=int, default=200) # Change Johan default 100
+parser.add_argument('--beta_1', type=float, default=1e-4) # Change Johan default 1e-4
+parser.add_argument('--beta_T', type=float, default=0.05) # Change Johan default 0.02
 parser.add_argument('--sched_mode', type=str, default='linear')
 parser.add_argument('--flexibility', type=float, default=0.0)
 parser.add_argument('--truncate_std', type=float, default=2.0)
@@ -57,7 +57,7 @@ parser.add_argument('--log_root', type=str, default=os.path.join(HPC_WORK3,'base
 parser.add_argument('--device', type=str, default='cuda')
 parser.add_argument('--max_iters', type=int, default=float('inf'))
 parser.add_argument('--val_freq', type=int, default=1000)
-parser.add_argument('--test_freq', type=int, default=1*THOUSAND)
+parser.add_argument('--test_freq', type=int, default=30*THOUSAND)
 parser.add_argument('--test_size', type=int, default=400)
 parser.add_argument('--tag', type=str, default=None)
 args = parser.parse_args()
@@ -190,9 +190,9 @@ def test(it):
     writer.add_scalar('test/MMD_CD', results['lgan_mmd-CD'], global_step=it)
     writer.add_scalar('test/1NN_CD', results['1-NN-CD-acc'], global_step=it)
     # EMD related metrics
-    writer.add_scalar('test/Coverage_EMD', results['lgan_cov-EMD'], global_step=it)
-    writer.add_scalar('test/MMD_EMD', results['lgan_mmd-EMD'], global_step=it)
-    writer.add_scalar('test/1NN_EMD', results['1-NN-EMD-acc'], global_step=it)
+    # writer.add_scalar('test/Coverage_EMD', results['lgan_cov-EMD'], global_step=it) # out commentated by me
+    # writer.add_scalar('test/MMD_EMD', results['lgan_mmd-EMD'], global_step=it) # out commentated by me
+    # writer.add_scalar('test/1NN_EMD', results['1-NN-EMD-acc'], global_step=it) # out commentated by me
     # JSD
     writer.add_scalar('test/JSD', results['jsd'], global_step=it)
 

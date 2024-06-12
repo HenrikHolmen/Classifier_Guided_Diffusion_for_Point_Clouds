@@ -158,3 +158,13 @@ But I also encounters a new problem with the reseach question 2. Where in the co
 
 ### 09.06.2024
 After plotting the validation to see if the train_gen.py converages over time, I found that the baseline model only validate the samples every 30.000, which endup giving me only 6 points to plot, so  the code has been change so it should now validate every 1000 samples. The file has been submitted to the HPC to run for 24 hours to get the log file.  
+
+### 11.06.2024
+Meeting with Johan, trying to get some answers on how many model it made, Johan was in the start not sure about it and after some time he told me that it is two models used to different task in the diffusion process. We also talk about the variance schedule and I asked why the values was different in the train_gen.py and train_ae.py. Johan told me that I do not need to run autoencoder at all, even that it has been running for 24 hours on the HPC, because I only use the sampling part (generator). We agreed that I started the HPC again running on the updated values I found in the side note to the paper from Luo and Hu. And Johan will help me with the beta values on how they should be scaled.
+
+### 12.06.2024
+I used all day trying to get some answers from Johan about some issues I had about the plots from the newely run train_gen.py and test_gen.py. Johan told me that the plots was not good and I should try to run all the files again without using EMD calculations to save some computation time on the HPC. I have been trying to remove the EMD calculations from the code, but I had some issues with it. I sent Morten an e-mail about if I could visit hes office to get some help with the writing of the method section in the project.
+
+Overall day:  Worked in the code
+
+### 13.06.2024
