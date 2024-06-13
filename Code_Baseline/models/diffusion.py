@@ -20,7 +20,7 @@ class VarianceSchedule(Module):
             betas = torch.linspace(beta_1, beta_T, steps=num_steps)
 
         betas = torch.cat([torch.zeros([1]), betas], dim=0)     # Padding
-
+        print(f'linspacen er {sum(betas)}') # Made by me
         alphas = 1 - betas
         log_alphas = torch.log(alphas)
         for i in range(1, log_alphas.size(0)):  # 1 to T

@@ -1,38 +1,28 @@
 """
 From https://github.com/stevenygd/PointFlow/tree/master/metrics
 """
-import warnings
-
-import numpy as np
 import torch
-from numpy.linalg import norm
+import numpy as np
+import warnings
 from scipy.stats import entropy
 from sklearn.neighbors import NearestNeighbors
+from numpy.linalg import norm
 from tqdm.auto import tqdm
+
+_EMD_NOT_IMPL_WARNED = False
 
 
 def emd_approx(sample, ref):
-    # Assuming sample and ref are PyTorch tensors of shape [batch_size, num_points, 3]
-    # Ensure tensors are on the same device, ideally a GPU
-    device = sample.device
-    batch_size, num_points, points_dim = sample.size()
-    emd_vals = torch.zeros(batch_size, device=device)
-
-    for i in range(batch_size):
-        # Compute the pairwise distance matrix between points in both point clouds
-        # Expand dims to [num_points, 1, 3] and [1, num_points, 3] to broadcast
-        dist_matrix = torch.norm(sample[i].unsqueeze(1) - ref[i].unsqueeze(0), dim=2, p=2)
-
-        # For the assignment problem, we use an approximation: min cost flow approximation
-        # We use this as an example, consider using a more accurate method if necessary
-        row_ind, col_ind = torch.min(dist_matrix, dim=1)
-
-        # Calculate the EMD as the sum of the distances between matched points
-        emd = dist_matrix[torch.arange(num_points), col_ind].sum() / num_points
-
-        # Store the result
-        emd_vals[i] = emd
-    return emd_vals
+    global _EMD_NOT_IMPL_WARNED
+    emd = torch.zeros([sample.size(0)]).to(sample)
+    if not _EMD_NOT_IMPL_WARNED:
+        _EMD_NOT_IMPL_WARNED = True
+        print('\n\n[WARNING]')
+        print('  * EMD is not implemented due to GPU compatability issue.')
+        print('  * We will set all EMD to zero by default.')
+        print('  * You may implement your own EMD in the function `emd_approx` in ./evaluation/evaluation_metrics.py')
+        print('\n')
+    return emd
 
 
 # Borrow from https://github.com/ThibaultGROUEIX/AtlasNet
@@ -49,81 +39,81 @@ def distChamfer(a, b):
     return P.min(1)[0], P.min(2)[0]
 
 
-# def EMD_CD(sample_pcs, ref_pcs, batch_size, reduced=True):
-#     N_sample = sample_pcs.shape[0]
-#     N_ref = ref_pcs.shape[0]
-#     assert N_sample == N_ref, "REF:%d SMP:%d" % (N_ref, N_sample)
-#
-#     cd_lst = []
-#     emd_lst = []
-#     iterator = range(0, N_sample, batch_size)
-#
-#     for b_start in tqdm(iterator, desc='EMD-CD'):
-#         b_end = min(N_sample, b_start + batch_size)
-#         sample_batch = sample_pcs[b_start:b_end]
-#         ref_batch = ref_pcs[b_start:b_end]
-#
-#         dl, dr = distChamfer(sample_batch, ref_batch)
-#         cd_lst.append(dl.mean(dim=1) + dr.mean(dim=1))
-#
-#         emd_batch = emd_approx(sample_batch, ref_batch)
-#         emd_lst.append(emd_batch)
-#
-#     if reduced:
-#         cd = torch.cat(cd_lst).mean()
-#         emd = torch.cat(emd_lst).mean()
-#     else:
-#         cd = torch.cat(cd_lst)
-#         emd = torch.cat(emd_lst)
-#
-#     results = {
-#         'MMD-CD': cd,
-#         'MMD-EMD': emd,
-#     }
-#     return results
+def EMD_CD(sample_pcs, ref_pcs, batch_size, reduced=True):
+    N_sample = sample_pcs.shape[0]
+    N_ref = ref_pcs.shape[0]
+    assert N_sample == N_ref, "REF:%d SMP:%d" % (N_ref, N_sample)
+
+    cd_lst = []
+    emd_lst = []
+    iterator = range(0, N_sample, batch_size)
+
+    for b_start in tqdm(iterator, desc='EMD-CD'):
+        b_end = min(N_sample, b_start + batch_size)
+        sample_batch = sample_pcs[b_start:b_end]
+        ref_batch = ref_pcs[b_start:b_end]
+
+        dl, dr = distChamfer(sample_batch, ref_batch)
+        cd_lst.append(dl.mean(dim=1) + dr.mean(dim=1))
+
+        emd_batch = emd_approx(sample_batch, ref_batch)
+        emd_lst.append(emd_batch)
+
+    if reduced:
+        cd = torch.cat(cd_lst).mean()
+        emd = torch.cat(emd_lst).mean()
+    else:
+        cd = torch.cat(cd_lst)
+        emd = torch.cat(emd_lst)
+
+    results = {
+        'MMD-CD': cd,
+        'MMD-EMD': emd,
+    }
+    return results
 
 
-# def _pairwise_EMD_CD_(sample_pcs, ref_pcs, batch_size, verbose=True):
-#     N_sample = sample_pcs.shape[0]
-#     N_ref = ref_pcs.shape[0]
-#     all_cd = []
-#     all_emd = []
-#     iterator = range(N_sample)
-#     if verbose:
-#         iterator = tqdm(iterator, desc='Pairwise EMD-CD')
-#     for sample_b_start in iterator:
-#         sample_batch = sample_pcs[sample_b_start]
-#
-#         cd_lst = []
-#         emd_lst = []
-#         sub_iterator = range(0, N_ref, batch_size)
+def _pairwise_EMD_CD_(sample_pcs, ref_pcs, batch_size, verbose=True):
+    N_sample = sample_pcs.shape[0]
+    N_ref = ref_pcs.shape[0]
+    all_cd = []
+    all_emd = []
+    iterator = range(N_sample)
+    if verbose:
+        iterator = tqdm(iterator, desc='Pairwise EMD-CD')
+    for sample_b_start in iterator:
+        sample_batch = sample_pcs[sample_b_start]
+
+        cd_lst = []
+        emd_lst = []
+        sub_iterator = range(0, N_ref, batch_size)
         # if verbose:
         #     sub_iterator = tqdm(sub_iterator, leave=False)
-        # for ref_b_start in sub_iterator:
-        #     ref_b_end = min(N_ref, ref_b_start + batch_size)
-        #     ref_batch = ref_pcs[ref_b_start:ref_b_end]
-        #
-        #     batch_size_ref = ref_batch.size(0)
-        #     point_dim = ref_batch.size(2)
-        #     sample_batch_exp = sample_batch.view(1, -1, point_dim).expand(
-        #         batch_size_ref, -1, -1)
-        #     sample_batch_exp = sample_batch_exp.contiguous()
-        #
-        #     dl, dr = distChamfer(sample_batch_exp, ref_batch)
-        #     cd_lst.append((dl.mean(dim=1) + dr.mean(dim=1)).view(1, -1))
-        #
-        #     emd_batch = emd_approx(sample_batch_exp, ref_batch)
-        #     emd_lst.append(emd_batch.view(1, -1))
-        #
-        # cd_lst = torch.cat(cd_lst, dim=1)
-        # emd_lst = torch.cat(emd_lst, dim=1)
-        # all_cd.append(cd_lst)
-        # all_emd.append(emd_lst)
-    #
-    # all_cd = torch.cat(all_cd, dim=0)  # N_sample, N_ref
-    # all_emd = torch.cat(all_emd, dim=0)  # N_sample, N_ref
-    #
-    # return all_cd, all_emd
+        for ref_b_start in sub_iterator:
+            ref_b_end = min(N_ref, ref_b_start + batch_size)
+            ref_batch = ref_pcs[ref_b_start:ref_b_end]
+
+            batch_size_ref = ref_batch.size(0)
+            point_dim = ref_batch.size(2)
+            sample_batch_exp = sample_batch.view(1, -1, point_dim).expand(
+                batch_size_ref, -1, -1)
+            sample_batch_exp = sample_batch_exp.contiguous()
+
+            dl, dr = distChamfer(sample_batch_exp, ref_batch)
+            cd_lst.append((dl.mean(dim=1) + dr.mean(dim=1)).view(1, -1))
+
+            emd_batch = emd_approx(sample_batch_exp, ref_batch)
+            emd_lst.append(emd_batch.view(1, -1))
+
+        cd_lst = torch.cat(cd_lst, dim=1)
+        emd_lst = torch.cat(emd_lst, dim=1)
+        all_cd.append(cd_lst)
+        all_emd.append(emd_lst)
+
+    all_cd = torch.cat(all_cd, dim=0)  # N_sample, N_ref
+    all_emd = torch.cat(all_emd, dim=0)  # N_sample, N_ref
+
+    return all_cd, all_emd
 
 
 # Adapted from https://github.com/xuqiantong/
@@ -206,16 +196,16 @@ def compute_all_metrics(sample_pcs, ref_pcs, batch_size):
     })
 
     ## EMD
-    # res_emd = lgan_mmd_cov(M_rs_emd.t()) # out commentated by me
-    # results.update({ # out commentated by me
-    #     "%s-EMD" % k: v for k, v in res_emd.items() # out commentated by me
-    # }) # out commentated by me
-    #
-    # for k, v in results.items(): # out commentated by me
-    #     print('[%s] %.8f' % (k, v.item())) # out commentated by me
-    #
-    # M_rr_cd, M_rr_emd = _pairwise_EMD_CD_(ref_pcs, ref_pcs, batch_size) # out commentated by me
-    # M_ss_cd, M_ss_emd = _pairwise_EMD_CD_(sample_pcs, sample_pcs, batch_size) # out commentated by me
+    # res_emd = lgan_mmd_cov(M_rs_emd.t())
+    # results.update({
+    #     "%s-EMD" % k: v for k, v in res_emd.items()
+    # })
+
+    for k, v in results.items():
+        print('[%s] %.8f' % (k, v.item()))
+
+    M_rr_cd, M_rr_emd = _pairwise_EMD_CD_(ref_pcs, ref_pcs, batch_size)
+    M_ss_cd, M_ss_emd = _pairwise_EMD_CD_(sample_pcs, sample_pcs, batch_size)
 
     # 1-NN results
     ## CD
@@ -224,10 +214,10 @@ def compute_all_metrics(sample_pcs, ref_pcs, batch_size):
         "1-NN-CD-%s" % k: v for k, v in one_nn_cd_res.items() if 'acc' in k
     })
     ## EMD
-    # one_nn_emd_res = knn(M_rr_emd, M_rs_emd, M_ss_emd, 1, sqrt=False)  # out commentated by me
-    # results.update({ # out commentated by me
-    #     "1-NN-EMD-%s" % k: v for k, v in one_nn_emd_res.items() if 'acc' in k # out commentated by me
-    # }) # out commentated by me
+    # one_nn_emd_res = knn(M_rr_emd, M_rs_emd, M_ss_emd, 1, sqrt=False)
+    # results.update({
+    #     "1-NN-EMD-%s" % k: v for k, v in one_nn_emd_res.items() if 'acc' in k
+    # })
 
     return results
 

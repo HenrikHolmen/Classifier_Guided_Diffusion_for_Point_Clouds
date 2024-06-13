@@ -168,3 +168,5 @@ I used all day trying to get some answers from Johan about some issues I had abo
 Overall day:  Worked in the code
 
 ### 13.06.2024
+This morning at 08:45 to 09:00 I had a meeting with Morten, where I got awnsers to some questions on how the introduction (including research question section) and method section should be structured. This was very useful and I have been working all day on rewriting / restructureing my project. We also agreed that because the variance schedual only is going to be set to 2 other settings than the default from Luo and Hu, I should rewrite the secound question to be more precise. I have through the day looked a the HPC server and as for now (17.00) the train_gen.py is stil running without any errors and are at 22 hours.  
+I found the 2 values for the variance schedule in the through the side notes and found that the sum needs to be linear, so when the first training is done I can set the new values and run the train_gen.py again.
