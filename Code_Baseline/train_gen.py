@@ -60,6 +60,10 @@ parser.add_argument('--val_freq', type=int, default=1000)
 parser.add_argument('--test_freq', type=int, default=10*THOUSAND) # Def. 30*THOUSAND
 parser.add_argument('--test_size', type=int, default=400)
 parser.add_argument('--tag', type=str, default=None)
+
+# Add checkpoint path argument with default value
+parser.add_argument('--checkpoint_path', type=str, default=os.path.join(HPC_WORK3, 'baseline_gen24h/GEN_2024_06_12__18_29_48/ckpt_0.000000_518000.pt'))
+
 args = parser.parse_args()
 seed_all(args.seed)
 
@@ -120,6 +124,15 @@ scheduler = get_linear_scheduler(
     end_lr=args.end_lr
 )
 
+# Load the specified checkpoint if provided
+start_iter = 1
+if args.checkpoint_path:
+    checkpoint = torch.load(args.checkpoint_path, map_location=args.device)
+    model.load_state_dict(checkpoint['state_dict'])
+    optimizer.load_state_dict(checkpoint['others']['optimizer'])
+    scheduler.load_state_dict(checkpoint['others']['scheduler'])
+    start_iter = getattr(checkpoint['args'], 'step', 0) + 1
+
 # Train, validate and test
 def train(it):
     # Load data
@@ -150,6 +163,7 @@ def train(it):
     writer.add_scalar('train/lr', optimizer.param_groups[0]['lr'], it)
     writer.add_scalar('train/grad_norm', orig_grad_norm, it)
     writer.flush()
+
 
 def validate_inspect(it):
     z = torch.randn([args.num_samples, args.latent_dim]).to(args.device)
@@ -204,10 +218,11 @@ def test(it):
     logger.info('[Test] 1NN-Accur | CD %.6f | EMD n/a' % (results['1-NN-CD-acc'], ))
     logger.info('[Test] JsnShnDis | %.6f ' % (results['jsd']))
 
+
 # Main loop
 logger.info('Start training...')
 try:
-    it = 1
+    it = start_iter
     while it <= args.max_iters:
         train(it)
         if it % args.val_freq == 0 or it == args.max_iters:
@@ -217,7 +232,7 @@ try:
                 'scheduler': scheduler.state_dict(),
             }
 
-            if it % args.val_freq * 10 == 0: # Saves one time per 10 validations
+            if it % (args.val_freq * 10) == 0:  # Saves one time per 10 validations
                 ckpt_mgr.save(model, args, 0, others=opt_states, step=it)
         if it % args.test_freq == 0 or it == args.max_iters:
             test(it)
