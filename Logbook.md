@@ -184,6 +184,8 @@ Overall I'm working everyday on the project from 08.00 to 17.00 and I'm very hap
 ### 16.06.2024
 It has been a longer day today because I had some issues when I started the train_gen.py from the last checkpoint to run the secound training on configurations 1. But I got resolved after some time, other bugs I have been struggling with was my biblograpy in the document, it was not showing up the right in the doucement and I had issues with hyperref, so I needed to remove all citations and put them in one by, one and check error log each time. But all are working now and I got number(s) showing at which page I have used each citation. I have been writting on the method section today and I fell that I got a grib on it after the hard start. But never the less I'm happy with the progress I have made today and I know I still have a lot to do before the deadline. Status on the HPC is that the model have trained for 2½ hours + the 24 hours from yesterday. 
 
-I forgot to mention that I plotted all the plots from the first traning with the new values at approximatly 500,000 iterations, which are also uploaded in this commit.
+Ps. I forgot to mention that I plotted all the plots from the first training with the new values at approximatly 500,000 iterations, which are also uploaded in this commit.
+
+Pss. I sent Morten the e-mail with the project up to this point to have him look at the structure. 
 
 ### 17.06.2024
