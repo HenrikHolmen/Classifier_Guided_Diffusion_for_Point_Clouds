@@ -182,3 +182,8 @@ The second traning phase stopped around 01.30 in the night. From the logfile it 
 Overall I'm working everyday on the project from 08.00 to 17.00 and I'm very happy with the progress I have made so far. But I also think that its stressfull to work on the project alone, and I somehow feels that Johan do not have the time to help me as much as I would like. But I'm keeping up the sprit and I feel that I'm learning a lot from the project. Just a shame that the deadline is so close and I still have so much to do, which makes it hard to dive deep into the material. 
 
 ### 16.06.2024
+It has been a longer day today because I had some issues when I started the train_gen.py from the last checkpoint to run the secound training on configurations 1. But I got resolved after some time, other bugs I have been struggling with was my biblograpy in the document, it was not showing up the right in the doucement and I had issues with hyperref, so I needed to remove all citations and put them in one by, one and check error log each time. But all are working now and I got number(s) showing at which page I have used each citation. I have been writting on the method section today and I fell that I got a grib on it after the hard start. But never the less I'm happy with the progress I have made today and I know I still have a lot to do before the deadline. Status on the HPC is that the model have trained for 2½ hours + the 24 hours from yesterday. 
+
+I forgot to mention that I plotted all the plots from the first traning with the new values at approximatly 500,000 iterations, which are also uploaded in this commit.
+
+### 17.06.2024

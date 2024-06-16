@@ -62,8 +62,7 @@ parser.add_argument('--test_size', type=int, default=400)
 parser.add_argument('--tag', type=str, default=None)
 
 # Add checkpoint path argument with default value
-parser.add_argument('--checkpoint_path', type=str, default=os.path.join(HPC_WORK3, 'baseline_gen24h/GEN_2024_06_12__18_29_48/ckpt_0.000000_518000.pt'))
-
+parser.add_argument('--checkpoint_path', type=str, default=os.path.join(HPC_WORK3, 'baseline_gen24h/GEN_2024_06_15__13_10_22/ckpt_0.000000_510000.pt'))
 args = parser.parse_args()
 seed_all(args.seed)
 
