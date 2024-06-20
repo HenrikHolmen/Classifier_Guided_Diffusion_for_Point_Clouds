@@ -1,28 +1,37 @@
 """
 From https://github.com/stevenygd/PointFlow/tree/master/metrics
 """
-import torch
-import numpy as np
 import warnings
+import numpy as np
+import torch
+from numpy.linalg import norm
 from scipy.stats import entropy
 from sklearn.neighbors import NearestNeighbors
-from numpy.linalg import norm
 from tqdm.auto import tqdm
-
-_EMD_NOT_IMPL_WARNED = False
 
 
 def emd_approx(sample, ref):
-    global _EMD_NOT_IMPL_WARNED
-    emd = torch.zeros([sample.size(0)]).to(sample)
-    if not _EMD_NOT_IMPL_WARNED:
-        _EMD_NOT_IMPL_WARNED = True
-        print('\n\n[WARNING]')
-        print('  * EMD is not implemented due to GPU compatability issue.')
-        print('  * We will set all EMD to zero by default.')
-        print('  * You may implement your own EMD in the function `emd_approx` in ./evaluation/evaluation_metrics.py')
-        print('\n')
-    return emd
+    # Assuming sample and ref are PyTorch tensors of shape [batch_size, num_points, 3]
+    # Ensure tensors are on the same device, ideally a GPU
+    device = sample.device
+    batch_size, num_points, points_dim = sample.size()
+    emd_vals = torch.zeros(batch_size, device=device)
+
+    for i in range(batch_size):
+        # Compute the pairwise distance matrix between points in both point clouds
+        # Expand dims to [num_points, 1, 3] and [1, num_points, 3] to broadcast
+        dist_matrix = torch.norm(sample[i].unsqueeze(1) - ref[i].unsqueeze(0), dim=2, p=2)
+
+        # For the assignment problem, we use an approximation: min cost flow approximation
+        # We use this as an example, consider using a more accurate method if necessary
+        row_ind, col_ind = torch.min(dist_matrix, dim=1)
+
+        # Calculate the EMD as the sum of the distances between matched points
+        emd = dist_matrix[torch.arange(num_points), col_ind].sum() / num_points
+
+        # Store the result
+        emd_vals[i] = emd
+    return emd_vals
 
 
 # Borrow from https://github.com/ThibaultGROUEIX/AtlasNet
@@ -196,10 +205,10 @@ def compute_all_metrics(sample_pcs, ref_pcs, batch_size):
     })
 
     ## EMD
-    # res_emd = lgan_mmd_cov(M_rs_emd.t())
-    # results.update({
-    #     "%s-EMD" % k: v for k, v in res_emd.items()
-    # })
+    res_emd = lgan_mmd_cov(M_rs_emd.t())
+    results.update({
+         "%s-EMD" % k: v for k, v in res_emd.items()
+    })
 
     for k, v in results.items():
         print('[%s] %.8f' % (k, v.item()))
@@ -214,10 +223,10 @@ def compute_all_metrics(sample_pcs, ref_pcs, batch_size):
         "1-NN-CD-%s" % k: v for k, v in one_nn_cd_res.items() if 'acc' in k
     })
     ## EMD
-    # one_nn_emd_res = knn(M_rr_emd, M_rs_emd, M_ss_emd, 1, sqrt=False)
-    # results.update({
-    #     "1-NN-EMD-%s" % k: v for k, v in one_nn_emd_res.items() if 'acc' in k
-    # })
+    one_nn_emd_res = knn(M_rr_emd, M_rs_emd, M_ss_emd, 1, sqrt=False)
+    results.update({
+        "1-NN-EMD-%s" % k: v for k, v in one_nn_emd_res.items() if 'acc' in k
+    })
 
     return results
 

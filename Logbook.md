@@ -198,3 +198,8 @@ The model with configurations 2 was done with first run today at 19.00, I did no
 
 ### 19.06.2024
 Today have been an extremly long day starting at 10:00 to 20:30 I have mostly used the time on writing theory, and I have been writing on the baseline model and in a few minuts the last model is done training. Then I only need to run the test_gen.py file. But I will wait unto tomorrow morning to start running the default model to avoid any errors in the process because I'm tired now. I will also make the new plots for the current training model. I have uploaded my Gantt chart so it is up to date. 
+
+### 20.06.2024
+I have been troubleshooting from 09:00 to 19:30 trying to get test_gen.py to run with Earth Mover's distance. I just solved the issue now, but it was a wast of time where I had hoped to be writting more of the report. But at least now I got it up and working and I have ran the first default model through and currently is model 2 running on the HPC. I'll add more text tomorrow on this day, now I'm just happy that I got it to work.
+
+### 21.06.2024
