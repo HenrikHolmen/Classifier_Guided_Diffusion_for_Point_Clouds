@@ -202,4 +202,6 @@ Today have been an extremly long day starting at 10:00 to 20:30 I have mostly us
 ### 20.06.2024
 I have been troubleshooting from 09:00 to 19:30 trying to get test_gen.py to run with Earth Mover's distance. I just solved the issue now, but it was a wast of time where I had hoped to be writting more of the report. But at least now I got it up and working and I have ran the first default model through and currently is model 2 running on the HPC. I'll add more text tomorrow on this day, now I'm just happy that I got it to work.
 
+The issue were that when I ran the test_gen.py file with Hu and Luo's old branch EMD-CD score code, it ran for 20 min per point clound in the model and with a total of 607 point clouds it would take 203 hours to run per model (in total 25,5 days), and I know that EMD is the best metric to use when working with point clouds. So I tried to find a faster way to calculate the EMD score and I found a new methods, other codes, but I had to make it run in the HPC enviroment. I endded up with something beeing much faster with a code that uses parts Pythoch.  
+
 ### 21.06.2024
