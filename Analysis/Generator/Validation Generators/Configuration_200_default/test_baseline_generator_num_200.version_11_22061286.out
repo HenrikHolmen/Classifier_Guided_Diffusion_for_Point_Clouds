@@ -1,0 +1,8 @@
+linspacen er 5.010000228881836
+Pairwise EMD CD
+[lgan_mmd-CD] 0.00337262
+[lgan_cov-CD] 0.43492585
+[lgan_mmd_smp-CD] 0.00291941
+[lgan_mmd-EMD] 0.02828051
+[lgan_cov-EMD] 0.30642503
+[lgan_mmd_smp-EMD] 0.02533086

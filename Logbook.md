@@ -205,3 +205,13 @@ I have been troubleshooting from 09:00 to 19:30 trying to get test_gen.py to run
 The issue were that when I ran the test_gen.py file with Hu and Luo's old branch EMD-CD score code, it ran for 20 min per point clound in the model and with a total of 607 point clouds it would take 203 hours to run per model (in total 25,5 days), and I know that EMD is the best metric to use when working with point clouds. So I tried to find a faster way to calculate the EMD score and I found a new methods, other codes, but I had to make it run in the HPC enviroment. I endded up with something beeing much faster with a code that uses parts Pythoch.  
 
 ### 21.06.2024
+I have been writing on the report all day and fixed labels on plots axis. I also tested how to make the 3D objects, where I playe around with the program Blender which was to advanced to make the 3D point cloud stylish. So instead I made the 3D as interactive plots in HTML using Plotly, this worked better. I have made code for plotting all 607 point clouds to see which results looks the best and I made code for plotteing 1, 3 and 5 point clouds next to each other for use in the project.
+
+### 22.06.2024
+After a long day (09.00 - 21.30) I'm done writting about the baseline setup and how the code works, so the work with the new models are not as big as the baseline, because the method which they are built upon are explained there. 
+I made some tables for the results where I found how the baseline performence aginst the orginal model from Hu and Luo where all tests besides JSD are really close. Jensens Shannon Divergence is off (their 1.067 and my baselineline model 14.986) this could have something to do with model being trained only on the airplane and might not have gotten as long as their model (no infomations on how long it has been training for).
+
+### 23.06.2024
+
+
+### 24.06.2024
