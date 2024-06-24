@@ -1,7 +1,7 @@
 ## Logbook for project
 Created: 07.02.24
-Last update: 14.02.24
-By: See Git log history
+Last update: 24.06.24
+By: Henrik
 
 ### 07.02.2024. 
 An agreement contract has been established after a long, but positive, discussion. We have decided to use a planning tool called PLANE to help us keep track of each main task and subtask. We have sent an email to our two project mentors regarding the first meeting, expressing our desire for guidance from the mentors. We would like to know which aspects of point cloud technology they are particularly interested in to ensure they can be a strong resource for our project. We have agreed to individual brainstorm ideas for research questions, in case project mentors do not provide any strong interest/guidons on this area.
@@ -212,6 +212,7 @@ After a long day (09.00 - 21.30) I'm done writting about the baseline setup and 
 I made some tables for the results where I found how the baseline performence aginst the orginal model from Hu and Luo where all tests besides JSD are really close. Jensens Shannon Divergence is off (their 1.067 and my baselineline model 14.986) this could have something to do with model being trained only on the airplane and might not have gotten as long as their model (no infomations on how long it has been training for).
 
 ### 23.06.2024
- 
+ I have been working on the project from 09.00 to 23.30 and got the last text for model 1 and 2 written, I also began on the results which is almost complete. I did use some time changing my plots into being more 3D plot'ish and made 3x3 extracted for each model to the appendix. I did write discussion section and started to get an overview on the remaining parts of the project before deadline tomorrow. 
 
 ### 24.06.2024
+Last update, its not 18.30 and I still have some hours left before the deadline hand-in. I did finish the project and are working on collection all the documentation which is requried to handin.
