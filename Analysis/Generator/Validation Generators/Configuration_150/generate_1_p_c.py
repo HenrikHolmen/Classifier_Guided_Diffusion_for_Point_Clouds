@@ -50,7 +50,7 @@ fig.update_layout(
 )
 
 # Save the plot as HTML
-output_file = r"C:\Users\henri\Documents\Git\Git_Projects\Classifier_Guided_Diffusion_for_Point_Clouds-1\Analysis\Generator\Validation Generators\Configuration_150\interactive_3d_point_cloud.html"
+output_file = r"C:\Users\henri\Documents\Git\Git_Projects\Classifier_Guided_Diffusion_for_Point_Clouds-1\Analysis\Generator\Validation Generators\Configuration_150\interactive_3d_point_cloud_config2.html"
 fig.write_html(output_file)
 
 # Save the plot as a high-DPI PNG image

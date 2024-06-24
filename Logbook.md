@@ -212,6 +212,6 @@ After a long day (09.00 - 21.30) I'm done writting about the baseline setup and 
 I made some tables for the results where I found how the baseline performence aginst the orginal model from Hu and Luo where all tests besides JSD are really close. Jensens Shannon Divergence is off (their 1.067 and my baselineline model 14.986) this could have something to do with model being trained only on the airplane and might not have gotten as long as their model (no infomations on how long it has been training for).
 
 ### 23.06.2024
-
+ 
 
 ### 24.06.2024

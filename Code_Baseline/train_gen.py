@@ -21,7 +21,7 @@ parser = argparse.ArgumentParser()
 # Model arguments
 parser.add_argument('--model', type=str, default='flow', choices=['flow', 'gaussian'])
 parser.add_argument('--latent_dim', type=int, default=256)
-parser.add_argument('--num_steps', type=int, default=250) # Change by me default 100
+parser.add_argument('--num_steps', type=int, default=200) # Change by me default 100
 parser.add_argument('--beta_1', type=float, default=1e-4) # Change by me default 1e-4
 parser.add_argument('--beta_T', type=float, default=0.05) # Change by me default 0.02
 parser.add_argument('--sched_mode', type=str, default='linear')
